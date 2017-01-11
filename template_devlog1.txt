@@ -1,4 +1,4 @@
-<Team Name>
+AstroJellies
 <Member 0 Name>
 <Member 1 Name>
 <Member 2 Name>
