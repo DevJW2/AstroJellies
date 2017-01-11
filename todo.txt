@@ -1,0 +1,13 @@
+Federico Tondolo
+Jeffrey Weng
+Allan Wang
+AstroJellies
+APCS1 pd5
+10/1/2017
+
+1.  The fist step is to complete a more throoguh and accurate UML-diagram of the code ahead.  This should inlcude multiple classes.   Also, this will be the template for what is to come.
+2.  Secondly, we will create a detailed description of each and every tool we wish to incorporate either in the hacker's arsenal or in the game itself.  This will aid us in future to keep our ideas clear.
+3.  After reminding ourselves of what our MVP should contain (using our proposal), we will (as a third step) slowly begin assembling this code.
+4.  As our MVP requires a number of different algorithms the task will be split threeways and then reassembled at compeltion of each part.  It is important to note that should anyone individual need help, the help would be promptly supplied by the remaining team members.
+5.  Once the parts of the MVP have been assigned, the team members would work on their individual parts, checking in from time to time both on the aforementioned notes and on the roposal to make sure that they are remaining on track regarding the original goal of the rpoject.
+6.  Once the parts are combined, each team member will explain with excruiating detail the workings of his code (like we did in class).  This will be key for when a team-member will need to create code based on code he did not write himself.  It will also be very helpful when troubleshooting worrisome code as there are then 3 heads knowing what is supposed to be working and how.
