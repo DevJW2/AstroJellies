@@ -1,8 +1,8 @@
 AstroJellies
-<Member 0 Name>
-<Member 1 Name>
-<Member 2 Name>
-pd <pd#>
+Jeffrey Weng
+Federico Tondolo
+Allan Wang
+pd 5
 ---------------------
 <Project>
 
