@@ -14,15 +14,17 @@ Our first entry!  Not only have we begun updating our todo list and our devlog b
 
 UNRESOLVED ISSUES
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-We are still unsure exactly we will be able to split the work of coding our project (specifically the MVP). Should we work on each method together?  Should each of us be able to choose individual methods or should each of us simply choose a class and run with it?  It seems clear to us that if any of us need help with something the other two teammates will run to his aid but we are still undecided regarding the splitting of work.
+We are still unsure exactly on how we will be able to split the work of coding our project (specifically the MVP). Should we work on each method together?  Should each of us be able to choose individual methods or should each of us simply choose a class and run with it?  It seems clear to us that if any of us need help with something the other two teammates will run to his aid but we are still undecided regarding the splitting of work.
+
+Also further research needs to be done on hacking, more specifics on each actual hacking practices. Other unresolved issues, include the development of the actual complexity of the puzzles. How would we interact with it, and how it connects specifically with every other puzzle. This game is based on some games that have similar themes, but the actual puzzles/content will all be developed by ourselves, which will take some time. 
 
 COOL STUFF LEARNED
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-We learned today (through observing other teams' flowcharts) that they are not strictly top-to-bottom.  It is possible to make a flowchart proceed in any way possible making it extremely flexible.
+We learned today (through observing other teams' flowcharts) that they are not strictly top-to-bottom.  It is possible to make a flowchart proceed in any way possible making it extremely flexible. We also learned about a program called draw.io, which helps making UML diagrams, flowcharts, etc. 
 
 MID-DEVELOPMENT DESIGN CHANGES
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-We changed the functionality of the decrypter tool.  From having it print pre-defined statements we now have decided to give it the ability to brute-force the clear-text by using all the possible permutations of a caesar cipher.  We did this becuase the new code is not only more visually stimulating for the user, but also because the new code will incorporate loop, conditionals, and lists, making it far more intersting to write.
+We changed the functionality of the decryptor tool.  From having it print pre-defined statements we now have decided to give it the ability to brute-force the clear-text by using all the possible permutations of a caesar cipher.  We did this because the new code is not only more visually stimulating for the user, but also because it is way more interesting, having a program that enables the user to actually insert a key or brute force through a decipher is more intriguing. Game flow, from linear, to a collective puzzle.
 
 LESSONS LEARNED
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -42,35 +44,35 @@ We were provided with final proof (through the difficulty we found completing th
 
 2016-01-04
 --------------------------------------------------------------
-Federico Tondolo :: Completed google survey regarding group and project.
-Jeffrey Weng :: Created github repository for project and shared it with teammates.
+Jeffrey Weng :: Completed google survey regarding group and project. Created github repository for project and shared it with teammates.
 ==============================================================
 
 2016-01-05
 --------------------------------------------------------------
 Federico Tondolo :: Brainstormed ideas and possible code with teammates.  Aided in writing Proposal along with a sketch of how the storyline and game mechanics might be addressed.   
 Allan Wang :: Brainstormed ideas and possible code with teammates.  Aided in writing Proposal along with ideas regarding what code concepts should be incorporated in our code and where they might be of used.
-Jeffrey Weng :: Brainstormed ideas and possible code with teammates.  Aided in writing Proposalalong with ideas regarding what code concepts should be incorporated in our code and where they might be of used.
+Jeffrey Weng :: Proposed the idea of basing a game off of HACKNET, because it was a game I played recently over the break. Proposed idea to teammates, with unerlying code and ideas. Teammates accepted without hesitation and we continued on with the idea. We then brainstormed ideas and possible code with teammates.  Started a google doc with a basic game flow on the game, wrote basic backstory, hacking tools, and aided in writing the Proposal. 
 ==============================================================
 
 2016-01-09
 --------------------------------------------------------------
 Federico Tondolo :: Brainstormed ideas regarding the proposal and wrote detailed descriptions regarding the MVP of the code and the tools to be (possibly) incorporated in the game along with the concepts they would exemplify.  Wrote first version of the UML table (only contained methods for class Woo).
 Allan Wang :: Brainstormed ideas regarding the proposal and aided in writing part of it.
-Jeffrey Weng :: Brainstormed ideas regarding the proposal and aided in writing part of it.
+Jeffrey Weng :: Brainstormed ideas regarding the proposal, changed decryptor, changed game flow into collective puzzle game, where small pieces unlock the large piece,  aided in writing part of the proposal.
 ==============================================================
 
 2016-01-10
 --------------------------------------------------------------
 Federico Tondolo :: Created and updated for the first time todo.txt file in the github project repository.
 Allan Wang :: Created the first draft of the Flowchart.
+Jeffrey Weng :: Changed Proposal, set up new classes for the fixed version of the UML diagram, because it only incorporated the woo(driver class). 
 ==============================================================
 
 2016-01-11
 --------------------------------------------------------------
 Federico Tondolo :: Brainstormed ideas to increase detail and complexity of code by including abstract classes along with inheritance and lists (both dimensions).  Also updated devlog with first entry, and  overwrote .gitignore in project repo.
 Allan Wang :: Brainstormed ideas to increase detail and complexity of code by including abstract classes along with inheritance and lists (both dimensions). Updated flowchart to increase clarity and detail.
-Jeffrey Weng :: Brainstormed ideas to increase detail and complexity of code by including abstract classes along with inheritance and lists (both dimensions).
-Also dedicated himself to updating Proposal based on aforementioned brainstorm ideas and also updated UML table.
+Jeffrey Weng :: Brainstormed ideas to increase detail and complexity of code by thinking of how abstract classes, interfaces, and inheritance can be setup using the different tools we had.
+Updated Devlog.Also updated Proposal based on new ideas with every tool we were gonna use. Set up the updated UML table on draw.io. Pushed UML, on to github repo as well. 
 ==============================================================
 
