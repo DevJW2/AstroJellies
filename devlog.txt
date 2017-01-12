@@ -49,30 +49,38 @@ Jeffrey Weng :: Completed google survey regarding group and project. Created git
 
 2016-01-05
 --------------------------------------------------------------
-Federico Tondolo :: Brainstormed ideas and possible code with teammates.  Aided in writing Proposal along with a sketch of how the storyline and game mechanics might be addressed.   
+Federico Tondolo :: Brainstormed ideas + possible code.  Aided in writing Proposal, sketch of how the storyline, game mechanics might be addressed.   
 Allan Wang :: Brainstormed ideas and possible code with teammates.  Aided in writing Proposal along with ideas regarding what code concepts should be incorporated in our code and where they might be of used.
-Jeffrey Weng :: Proposed the idea of basing a game off of HACKNET, because it was a game I played recently over the break. Proposed idea to teammates, with unerlying code and ideas. Teammates accepted without hesitation and we continued on with the idea. We then brainstormed ideas and possible code with teammates.  Started a google doc with a basic game flow on the game, wrote basic backstory, hacking tools, and aided in writing the Proposal. 
+Jeffrey Weng :: Proposed the idea of basing a game off of HACKNET. Proposed idea to teammates, with underlying code + ideas. Teammates accepted without hesitation and we continued on with the idea. Then we brainstormed ideas + possible code.  Started a google doc with the basic game flow of the game, wrote basic backstory, hacking tools, and drew up the basic outline of the Proposal. 
 ==============================================================
 
 2016-01-09
 --------------------------------------------------------------
 Federico Tondolo :: Brainstormed ideas regarding the proposal and wrote detailed descriptions regarding the MVP of the code and the tools to be (possibly) incorporated in the game along with the concepts they would exemplify.  Wrote first version of the UML table (only contained methods for class Woo).
 Allan Wang :: Brainstormed ideas regarding the proposal and aided in writing part of it.
-Jeffrey Weng :: Brainstormed ideas regarding the proposal, changed decryptor, changed game flow into collective puzzle game, where small pieces unlock the large piece,  aided in writing part of the proposal.
+Jeffrey Weng :: Brainstormed ideas regarding the proposal, changed decryptor, updated game flow on our google doc into a collective puzzle game, where small pieces unlock the larger piece,  aided in updating part of the proposal.
 ==============================================================
 
 2016-01-10
 --------------------------------------------------------------
 Federico Tondolo :: Created and updated for the first time todo.txt file in the github project repository.
 Allan Wang :: Created the first draft of the Flowchart.
-Jeffrey Weng :: Changed Proposal, set up new classes for the fixed version of the UML diagram, because it only incorporated the woo(driver class). 
+Jeffrey Weng :: Changed Proposal again, set up new classes for the fixed version of the UML diagram, because it only incorporated the woo(driver class). 
 ==============================================================
 
 2016-01-11
 --------------------------------------------------------------
 Federico Tondolo :: Brainstormed ideas to increase detail and complexity of code by including abstract classes along with inheritance and lists (both dimensions).  Also updated devlog with first entry, and  overwrote .gitignore in project repo.
 Allan Wang :: Brainstormed ideas to increase detail and complexity of code by including abstract classes along with inheritance and lists (both dimensions). Updated flowchart to increase clarity and detail.
-Jeffrey Weng :: Brainstormed ideas to increase detail and complexity of code by thinking of how abstract classes, interfaces, and inheritance can be setup using the different tools we had.
-Updated Devlog.Also updated Proposal based on new ideas with every tool we were gonna use. Set up the updated UML table on draw.io. Pushed UML, on to github repo as well. 
+Jeffrey Weng :: Brainstormed ideas to increase detail and complexity of code by thinking of how abstract classes, interfaces, and inheritance can be setup using the different tools.
+Updated and fixed the Devlog. Also updated and pushed to repo the Proposal including: new concepts + elaboration on tools + more thorough backstory. Set up the updated UML table on draw.io. Shared updated UML diagram with team members. 
+==============================================================
+
+2016-01-12
+--------------------------------------------------------------
+Federico Tondolo :: 
+Allan Wang ::
+Jeffrey Weng :: 
+
 ==============================================================
 
