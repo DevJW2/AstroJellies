@@ -10,27 +10,25 @@ Shall We Play a Game?
 ------------------------------------------
 OBSTACLES OVERCOME
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Our first entry!  Not only have we begun updating our todo list and our devlog but we also have done major changes to our Proposal, UML diagram, and flow-chart increasing greatly their clarity and level of detail.  As an example, we specified in the proposal the exact way most (if not all) tools work in our game including our uses of abstract classes and inheritance among other properties.  We rewrote our flowchart to include arrows (to make flow clearer) and to match new details introduced in Proposal.  Lastly, we updated our UML diagram by adding the multiple Classes we introduced in the Proposal and also described the important methods of each.
+wow we so BOSS bc...
 
 UNRESOLVED ISSUES
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-We are still unsure exactly on how we will be able to split the work of coding our project (specifically the MVP). Should we work on each method together?  Should each of us be able to choose individual methods or should each of us simply choose a class and run with it?  It seems clear to us that if any of us need help with something the other two teammates will run to his aid but we are still undecided regarding the splitting of work.
-
-Also further research needs to be done on hacking, more specifics on each actual hacking practices. Other unresolved issues, include the development of the actual complexity of the puzzles. How would we interact with it, and how it connects specifically with every other puzzle. This game is based on some games that have similar themes, but the actual puzzles/content will all be developed by ourselves, which will take some time. 
+blah blah pesky bug...
+maybe some of these will move into the Obs.Ovrcm section...
 
 COOL STUFF LEARNED
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-We learned today (through observing other teams' flowcharts) that they are not strictly top-to-bottom.  It is possible to make a flowchart proceed in any way possible making it extremely flexible. We also learned about a program called draw.io, which helps making UML diagrams, flowcharts, etc. 
+wow! oo!...
 
 MID-DEVELOPMENT DESIGN CHANGES
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-We changed the functionality of the decryptor tool.  From having it print pre-defined statements we now have decided to give it the ability to brute-force the clear-text by using all the possible permutations of a caesar cipher.  We did this because the new code is not only more visually stimulating for the user, but also because it is way more interesting, having a program that enables the user to actually insert a key or brute force through a decipher is more intriguing. Game flow, from linear, to a collective puzzle.
+we changed ___ to ___ bc...
 
 LESSONS LEARNED
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-We were provided with final proof (through the difficulty we found completing the flowchart) that if one does not have a clearly defined plan, one cannot do anything else with great success.
+tales of wisdom gained...
 ||||||||||||||||||||||||||||||||||||||||||
-
 
 
  ______   ______   __   __   __       ______   _______     
@@ -72,6 +70,7 @@ Jeffrey Weng :: Changed Proposal again, set up new classes for the fixed version
 --------------------------------------------------------------
 Federico Tondolo :: Brainstormed ideas to increase detail and complexity of code by including abstract classes along with inheritance and lists (both dimensions).  Also updated devlog with first entry, and  overwrote .gitignore in project repo.
 Allan Wang :: Brainstormed ideas to increase detail and complexity of code by including abstract classes along with inheritance and lists (both dimensions). Updated flowchart to increase clarity and detail.
+<<<<<<< HEAD
 Jeffrey Weng :: Brainstormed ideas to increase detail and complexity of code by thinking of how abstract classes, interfaces, and inheritance can be setup using the different tools.
 Updated and fixed the Devlog. Also updated and pushed to repo the Proposal including: new concepts + elaboration on tools + more thorough backstory. Set up the updated UML table on draw.io. Shared updated UML diagram with team members. 
 ==============================================================
@@ -82,5 +81,21 @@ Federico Tondolo ::
 Allan Wang ::
 Jeffrey Weng :: 
 
+=======
+Jeffrey Weng :: Brainstormed ideas to increase detail and complexity of code by thinking of how abstract classes, interfaces, and inheritance can be setup using the different tools we had.
+Updated Devlog.Also updated Proposal based on new ideas with every tool we were gonna use. Set up the updated UML table on draw.io. Pushed UML, on to github repo as well. 
+/////////////////////////////////////////////////
+Our first 'live' entry!  Not only have we begun updating our todo list and our devlog but we also have done major changes to our Proposal, UML diagram, and flow-chart increasing greatly their clarity and level of detail.  As an example, we specified in the proposal the exact way most (if not all) tools work in our game including our uses of abstract classes and inheritance among other properties.  We rewrote our flowchart to include arrows (to make flow clearer) and to match new details introduced in Proposal.  Lastly, we updated our UML diagram by adding the multiple Classes we introduced in the Proposal and also described the important methods of each.
+
+We are still unsure exactly on how we will be able to split the work of coding our project (specifically the MVP). Should we work on each method together?  Should each of us be able to choose individual methods or should each of us simply choose a class and run with it?  It seems clear to us that if any of us need help with something the other two teammates will run to his aid but we are still undecided regarding the splitting of work.
+
+Also further research needs to be done on hacking, more specifics on each actual hacking practices. Other unresolved issues, include the development of the actual complexity of the puzzles. How would we interact with it, and how it connects specifically with every other puzzle. This game is based on some games that have similar themes, but the actual puzzles/content will all be developed by ourselves, which will take some time.
+
+We learned today (through observing other teams' flowcharts) that they are not strictly top-to-bottom.  It is possible to make a flowchart proceed in any way possible making it extremely flexible. We also learned about a program called draw.io, which helps making UML diagrams, flowcharts, etc.
+
+We changed the functionality of the decryptor tool.  From having it print pre-defined statements we now have decided to give it the ability to brute-force the clear-text by using all the possible permutations of a caesar cipher.  We did this because the new code is not only more visually stimulating for the user, but also because it is way more interesting, having a program that enables the user to actually insert a key or brute force through a decipher is more intriguing. Game flow, from linear, to a collective puzzle.
+
+We were provided with final proof (through the difficulty we found completing the flowchart) that if one does not have a clearly defined plan, one cannot do anything else with great success.
+>>>>>>> d06d4da64a98379d68ba3fe9c1ac1268c79bfeab
 ==============================================================
 
