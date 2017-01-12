@@ -1,4 +1,5 @@
 # Compiled Source #
+*.class
 
 # Package Files #
 *.jar
