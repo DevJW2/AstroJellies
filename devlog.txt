@@ -1,50 +1,32 @@
 AstroJellies
-Jeffrey Weng
 Federico Tondolo
+Jeffrey Weng
 Allan Wang
 pd 5
 ---------------------
-<Project>
-
-
-Suggested usage: 
-* Replace all fields, angle brackets included, with specified info.
-  eg, pd <pd#> --> pd 3
-* Delete these instructions once all teammates understand usage.
-
-devlog--
-Use keyboard shortcut to jump to end,
- replicate entry template,
- modify appropriately.
-
-zone of reflection--
-Flesh out each category whenever necessary, appropriate.
- Need not be fully filled in until end of project,
- but best done as you go along.
-
+Shall We Play a Game?
 
 /////////// Zone of Reflection \\\\\\\\\\\
 ------------------------------------------
 OBSTACLES OVERCOME
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-wow we so BOSS bc...
+Our first entry!  Not only have we begun updating our todo list and our devlog but we also have done major changes to our Proposal, UML diagram, and flow-chart increasing greatly their clarity and level of detail.  As an example, we specified in the proposal the exact way most (if not all) tools work in our game including our uses of abstract classes and inheritance among other properties.  We rewrote our flowchart to include arrows (to make flow clearer) and to match new details introduced in Proposal.  Lastly, we updated our UML diagram by adding the multiple Classes we introduced in the Proposal and also described the important methods of each.
 
 UNRESOLVED ISSUES
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-blah blah pesky bug...
-maybe some of these will move into the Obs.Ovrcm section...
+We are still unsure exactly we will be able to split the work of coding our project (specifically the MVP). Should we work on each method together?  Should each of us be able to choose individual methods or should each of us simply choose a class and run with it?  It seems clear to us that if any of us need help with something the other two teammates will run to his aid but we are still undecided regarding the splitting of work.
 
 COOL STUFF LEARNED
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-wow! oo!...
+We learned today (through observing other teams' flowcharts) that they are not strictly top-to-bottom.  It is possible to make a flowchart proceed in any way possible making it extremely flexible.
 
 MID-DEVELOPMENT DESIGN CHANGES
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-we changed ___ to ___ bc...
+We changed the functionality of the decrypter tool.  From having it print pre-defined statements we now have decided to give it the ability to brute-force the clear-text by using all the possible permutations of a caesar cipher.  We did this becuase the new code is not only more visually stimulating for the user, but also because the new code will incorporate loop, conditionals, and lists, making it far more intersting to write.
 
 LESSONS LEARNED
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-tales of wisdom gained...
+We were provided with final proof (through the difficulty we found completing the flowchart) that if one does not have a clearly defined plan, one cannot do anything else with great success.
 ||||||||||||||||||||||||||||||||||||||||||
 
 
@@ -58,10 +40,37 @@ tales of wisdom gained...
     \____/_/ \_____\/ \___/_(   \_____\/ \_____\/ \_____\/ 
 ==============================================================
 
-
-yyyy-mm-dd
+2016-01-04
 --------------------------------------------------------------
-<Member> :: <Thing member did.>
-<Member> :: <Thing member did.>
-<Member> :: <Thing member did.>
+Federico Tondolo :: Completed google survey regarding group and project.
+Jeffrey Weng :: Created github repository for project and shared it with teammates.
 ==============================================================
+
+2016-01-05
+--------------------------------------------------------------
+Federico Tondolo :: Brainstormed ideas and possible code with teammates.  Aided in writing Proposal along with a sketch of how the storyline and game mechanics might be addressed.   
+Allan Wang :: Brainstormed ideas and possible code with teammates.  Aided in writing Proposal along with ideas regarding what code concepts should be incorporated in our code and where they might be of used.
+Jeffrey Weng :: Brainstormed ideas and possible code with teammates.  Aided in writing Proposalalong with ideas regarding what code concepts should be incorporated in our code and where they might be of used.
+==============================================================
+
+2016-01-09
+--------------------------------------------------------------
+Federico Tondolo :: Brainstormed ideas regarding the proposal and wrote detailed descriptions regarding the MVP of the code and the tools to be (possibly) incorporated in the game along with the concepts they would exemplify.  Wrote first version of the UML table (only contained methods for class Woo).
+Allan Wang :: Brainstormed ideas regarding the proposal and aided in writing part of it.
+Jeffrey Weng :: Brainstormed ideas regarding the proposal and aided in writing part of it.
+==============================================================
+
+2016-01-10
+--------------------------------------------------------------
+Federico Tondolo :: Created and updated for the first time todo.txt file in the github project repository.
+Allan Wang :: Created the first draft of the Flowchart.
+==============================================================
+
+2016-01-11
+--------------------------------------------------------------
+Federico Tondolo :: Brainstormed ideas to increase detail and complexity of code by including abstract classes along with inheritance and lists (both dimensions).  Also updated devlog with first entry, and  overwrote .gitignore in project repo.
+Allan Wang :: Brainstormed ideas to increase detail and complexity of code by including abstract classes along with inheritance and lists (both dimensions). Updated flowchart to increase clarity and detail.
+Jeffrey Weng :: Brainstormed ideas to increase detail and complexity of code by including abstract classes along with inheritance and lists (both dimensions).
+Also dedicated himself to updating Proposal based on aforementioned brainstorm ideas and also updated UML table.
+==============================================================
+
