@@ -3,7 +3,7 @@ Jeffrey Weng
 Allan Wang
 AstroJellies
 APCS1 pd5
-1/12/2017 *updated
+1/13/2017 *updated
 
 1.  The fist step is to complete a more throoguh and accurate UML-diagram of the code ahead.  This should inlcude multiple classes.   Also, this will be the template for what is to come.
 -DONE-
@@ -13,4 +13,6 @@ APCS1 pd5
 -DONE-
 4.  As our MVP requires a number of different algorithms. We will begin work immediately. It is important to note that should anyone individual need help, the help would be promptly supplied by the remaining team members.
 -DONE-
+5.  Improve aesthetics of interface to be more similar to that of the terminal.
 
+6.  Adapt the hacker tools and their functionality such that they may work, even if it is simply at the "tutorial-level".
