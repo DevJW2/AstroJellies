@@ -76,9 +76,9 @@ Updated and fixed the Devlog. Also updated and pushed to repo the Proposal inclu
 
 2016-01-12
 --------------------------------------------------------------
-Federico Tondolo :: 
-Allan Wang ::
-Jeffrey Weng :: 
+Federico Tondolo :: Helped finish the UML diagram, with all the basic attributes and methods that will be needed in each class, updated repo.
+Allan Wang :: Finished the flow diagram, and drew it up using draw.io
+Jeffrey Weng :: Created the MVP, set up basic outlines for Woo, VFD, and Commands. Updated to-do list, updated repo. 
 
 
 /////////////////////////////////////////////////
