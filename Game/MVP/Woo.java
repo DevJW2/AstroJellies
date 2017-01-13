@@ -15,6 +15,8 @@ public class Woo{
 		System.out.println("Loading Tutorial....");
 		System.out.println("");
 		System.out.println("Entering root directory..");
+		System.out.println("Type your command...");
+		System.out.println("Try: help");
 		while(value == true){
 		    System.out.println("--------");
 		    System.out.println( VFD.getcurrentDir());
