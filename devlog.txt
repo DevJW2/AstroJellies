@@ -95,3 +95,6 @@ We changed the functionality of the decryptor tool.  From having it print pre-de
 We were provided with final proof (through the difficulty we found completing the flowchart) that if one does not have a clearly defined plan, one cannot do anything else with great success.
 ==============================================================
 
+2016-01-13
+--------------------------------------------------------------
+Federico Tondolo :: Updated todo.txt and devlog.txt.  Also updated folder hierarchy and updated UML to fit specifications (had the arrow direction inverted).
