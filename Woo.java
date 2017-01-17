@@ -1,11 +1,16 @@
 import cs1.Keyboard;
-
+import java.util.Scanner;
 public class Woo{
     
     //root, tutorial, home, etc
     public static boolean value = true; 
 
 	public static void main(String[] args){
+//		Scanner input = new Scanner("title.txt");
+//		while (input.hasNextLine())
+//		{
+//	  	 System.out.println(input.nextLine());
+//		}	
 		System.out.println("Welcome....");
 		System.out.println("Please enter you name: ");
 		String name = Keyboard.readString();
