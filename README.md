@@ -8,5 +8,6 @@ Jeffrey Weng, Federico Tondolo, Allan Wang
 ##To Launch
 Assuming you already have pulled our repo:
 ```bash
-$java woo
+javac woo.java
+java woo
 ```
