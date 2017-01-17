@@ -1,4 +1,4 @@
-import cs1.Keyboard;
+limport cs1.Keyboard;
 
 public class Woo{
     
@@ -19,7 +19,7 @@ public class Woo{
 		System.out.println("Try: help");
 		while(value == true){
 		    System.out.println("--------");
-		    System.out.println( VFD.getcurrentDir());
+		    System.out.print( VFD.getcurrentDir());
 		    
 		    String userInput = Keyboard.readString();
 		    if(userInput.equals("cd/root")){
