@@ -1,6 +1,6 @@
 public class VFD{
     //arraylist with all directories, later on
-    public static String currentDir = "root";
+    public static String currentDir = "hacker@home:root$";
     public static int currentLayer = 0;
 
     public static String getcurrentDir(){
