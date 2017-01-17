@@ -20,6 +20,7 @@ public class Woo{
 		while(value == true){
 		    System.out.println("--------");
 		    System.out.print( VFD.getcurrentDir());
+		    System.out.print("");
 		    
 		    String userInput = Keyboard.readString();
 		    if(userInput.equals("cd/root")){
