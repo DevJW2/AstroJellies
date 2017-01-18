@@ -108,7 +108,7 @@ Jeffrey Weng :: Reorganized directory structure and added modifications to the c
 2016-01-17
 --------------------------------------------------------------
 Federico Tondolo :: Created ASCII art and created implementation such that it may be displayed when the game runs.  Created beta version of decryptor class. Updated todo list and devlog. Update UML.
-Jeffrey Weng :: Fixed bug in README file. Reorganized directory structure and deleted superflous files.  Fixed pesky bug regarding the cd command in the VFD class.
+Jeffrey Weng :: Fixed bug in README file, updated README file. Reorganized directory structure and deleted superflous files.  Fixed pesky bug regarding the cd command in the VFD class. Uploaded VF2 version, attempted to streamline UNIX commands. Fixed aesthetics in woo. 
 Alan Wang :: Updated documents on repository.
 
 For now, due to the fact that we are midway in developmental stages our repo is in complete disarray despite Jeffrey's attempts to reorganize it.  At the same time we almost completed all of our goals in the todo List!  YAY! We are on schedule almost having completed all beta versions of the classes for the tools we will implement and everything is running smoothly.  The last big hurdle is to combine our tools in the tutorial as after that it will simply be a question of creating preprogrammed levels.  Hip-hip hoorray!
