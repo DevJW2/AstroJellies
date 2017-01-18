@@ -1,11 +1,19 @@
 import cs1.Keyboard;
+import java.util.Scanner;
+import java.io.File;
+import java.io.FileNotFoundException;
 
 public class Woo{
-    
-    //root, tutorial, home, etc
-    public static boolean value = true; 
 
-	public static void main(String[] args){
+    //root, tutorial, home, etc
+    public static boolean value = true;
+
+    public static void main(String[] args) throws FileNotFoundException{
+      Scanner input = new Scanner(new File("title.txt"));
+    while (input.hasNextLine())
+    {
+      System.out.println(input.nextLine());
+    }
 		System.out.println("Welcome....");
 		System.out.println("Please enter you name: ");
 		String name = Keyboard.readString();
@@ -21,13 +29,13 @@ public class Woo{
 		    System.out.println("--------");
 		    System.out.print( VFD.getcurrentDir());
 		    System.out.print("");
-		    
+
 		    String userInput = Keyboard.readString();
 		    if(userInput.equals("cd/root")){
 			System.out.println("");
 			Commands.changeDirectory("/root");
 		    }
-		    
+
 		    else if(userInput.equals("cd/tutorial")){
 			System.out.println("");
 			Commands.changeDirectory("/tutorial");
@@ -54,9 +62,9 @@ public class Woo{
 			System.out.println("Try using the help command...");
 		    }
 		}
-		
 
-		
+
+
 
 		//set up basic tutorial
 		//create basic puzzle
