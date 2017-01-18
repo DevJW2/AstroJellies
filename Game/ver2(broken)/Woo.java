@@ -38,7 +38,7 @@ public class Woo{
 			Commands.changeDirectory(userInput.substring(3));
 		    }
 		    /*
-		    if(userInput.equals("cd root")){
+		    if(userInput.equals("cd ~")){
 			System.out.println("");
 			Commands.changeDirectory("root");
 		    }

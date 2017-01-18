@@ -9,7 +9,7 @@ public class VFD{
 	return currentDir; 
     }
     public static String getPrompt(){
-	prompt += currentDir + "$";
+	prompt += currentDir + "$ ";
 	return prompt;
     }
     
