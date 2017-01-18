@@ -14,8 +14,8 @@ public class VFD{
     public static String rootDirectory(){
 	currentLayer = 0;
 	String retStr = "";
-	retStr += "/user\n";
-	retStr += "/tutorial";
+	retStr += "user\n";
+	retStr += "tutorial";
 	return retStr;
 	
     }

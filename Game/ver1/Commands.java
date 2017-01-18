@@ -1,11 +1,11 @@
 public class Commands{
 
     public static void changeDirectory(String input){
-	if(input == "/root" && (input != VFD.currentDir )){
+	if(input == "root" && (input != VFD.currentDir )){
 	    VFD.currentDir = "hacker@home:root$";
 	    
 	}
-	else if(input == "/tutorial" && (input != VFD.currentDir)){
+	else if(input == "tutorial" && (input != VFD.currentDir)){
 	    VFD.currentDir = "hacker@home:root/tutorial$";
 	}
     }
