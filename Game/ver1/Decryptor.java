@@ -1,3 +1,5 @@
+import cs1.Keyboard;
+
 public class Decryptor{
     public static int currentMode = 0;
     public static String inputString = "";
@@ -6,6 +8,23 @@ public class Decryptor{
     public static void setupEr(){
       System.out.println("Do you wish to encrypt or decrypt or brute force a message?");
       System.out.println("Enter either 'encrypt' or 'decrypt' or 'brute'.");
+      String usrInput = Keyboard.readString();
+            if(usrInput.length()>1){       
+                System.out.println("Invalid input!");
+            }
+            else{
+                stringSet(usrInput);
+            } 
+    }
+    public static void hashInput(){
+	System.out.println("Please input hash: ");
+        String userInput = Keyboard.readString();
+            if(userInput.length()>1){
+		System.out.println("Invalid input!");
+	    }
+	    else{
+		hashSet(Integer.parseInt(userInput));
+	    }
     }
     public static void stringSet(String input){
       inputString = input;
