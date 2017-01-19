@@ -114,5 +114,8 @@ Alan Wang :: Updated documents on repository.
 For now, due to the fact that we are midway in developmental stages our repo is in complete disarray despite Jeffrey's attempts to reorganize it.  At the same time we almost completed all of our goals in the todo List!  YAY! We are on schedule almost having completed all beta versions of the classes for the tools we will implement and everything is running smoothly.  The last big hurdle is to combine our tools in the tutorial as after that it will simply be a question of creating preprogrammed levels.  Hip-hip hoorray!
 ==============================================================
 
-
+2016-01-18
+--------------------------------------------------------------
+Federico Tondolo :: Upgraded Decryptor class to make process of using it more streamlined.  Updated devlog.  Fixed bug when utilising command line where 1 letter commands would close the whole program and return an error.
+==============================================================
 
