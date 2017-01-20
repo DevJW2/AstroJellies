@@ -29,25 +29,24 @@ public class Woo{
 		System.out.println("TRY: help");
 		while(value == true){
 		    System.out.println("-----------------------------");
-		    System.out.print( VFD.getPrompt());
+		    System.out.print("hacker@home:" + VFD.currentDir + "$");
+
+		  
 		    System.out.print("");
 
 		    String userInput = Keyboard.readString();
-		    if(userInput.substring(0,2).equals("cd")){
+		    if(userInput.length() < 2){
+			System.out.println("Please insert a viable command");
+			System.out.println("Try using the help command...");
+			
+		    }
+		    else if(userInput.substring(0,2).equals("cd")){
 			System.out.println("");
 			Commands.changeDirectory(userInput.substring(3));
 		    }
-		    /*
-		    if(userInput.equals("cd root")){
-			System.out.println("");
-			Commands.changeDirectory("root");
-		    }
 
-		    else if(userInput.equals("cd tutorial")){
-			System.out.println("");
-			Commands.changeDirectory("tutorial");
-		    }
-		    */
+      
+		    
 		    else if(userInput.equals("ls")){
 			Commands.listDirectory();
 			}
