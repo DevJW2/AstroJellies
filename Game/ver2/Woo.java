@@ -5,15 +5,16 @@ import java.io.FileNotFoundException;
 
 public class Woo{
 
-    //root, tutorial, home, etc
     public static boolean value = true;
-
+    //prints out ASCII
     public static void main(String[] args) throws FileNotFoundException{
 	Scanner input = new Scanner(new File("title.txt"));
-    while (input.hasNextLine())
-    {
-	System.out.println(input.nextLine());
-    }
+	while (input.hasNextLine())
+	    {
+		System.out.println(input.nextLine());
+	    }
+
+	//INTRO-----------------------------------------------
 		System.out.println("Welcome....");
 		System.out.print("Please enter you name: ");
 		String name = Keyboard.readString();
@@ -27,29 +28,33 @@ public class Woo{
 		System.out.println("Entering root directory..");
 		System.out.println("");
 		System.out.println("TRY: help");
+	//END INTRO-----------------------------------------------
+
+	//START GAME LOOP-----------------------------------------------
 		while(value == true){
 		    System.out.println("-----------------------------");
 		    System.out.print("hacker@home:" + VFD.currentDir + "$");
-
-		  
 		    System.out.print("");
-
+		    
+		    //Test COMMANDS
 		    String userInput = Keyboard.readString();
 		    if(userInput.length() < 2){
 			System.out.println("Please insert a viable command");
 			System.out.println("Try using the help command...");
 			
 		    }
+		    //Test for CD
 		    else if(userInput.substring(0,2).equals("cd")){
 			System.out.println("");
 			Commands.changeDirectory(userInput.substring(3));
 		    }
 
-      
 		    
+		    //Test for LS
 		    else if(userInput.equals("ls")){
 			Commands.listDirectory();
 			}
+		    //Test for HELP
 		    else if(userInput.equals("help")){
 			System.out.println("");
 			System.out.println("list directory files: ls");
@@ -60,6 +65,7 @@ public class Woo{
 			System.out.println("---ADMIN---");
 			System.out.println("To exit out of loop: exit");
 		    }
+		    //Test for EXIT
 		    else if(userInput.equals("exit")){
 			value = false;
 		    }
@@ -80,5 +86,6 @@ public class Woo{
 		//go to scene 1
 
 	}
+    	//END GAME LOOP-----------------------------------------------
 
 }
