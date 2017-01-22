@@ -120,6 +120,7 @@ Federico Tondolo :: Upgraded Decryptor class to make process of using it more st
 Jeffrey Weng :: Minor changes on woo class, updated devlog, updated version history
 ==============================================================
 
+
 2016-01-20
 --------------------------------------------------------------
 Jeffrey Weng :: FIXED, finally, made it so it was less redundant, having Commands being more concise, with VFD carrying all the tedious text and content such as dirContent or checkDir. Fixing prompt, and made it easier for future coding. 
@@ -127,7 +128,11 @@ Jeffrey Weng :: FIXED, finally, made it so it was less redundant, having Command
 
 2016-01-21
 --------------------------------------------------------------
-Jeffrey Weng :: Commented everything, made it easier to understand what each method did. Added back tracking for cd, started on openFile method. 
+Jeffrey Weng :: Commented everything, made it easier to understand what each method did. Added back tracking for cd, started on openFile method. Brainstormed last parts of game. Began work with locking files.
+
+Allan Wang: Started work on Virus Interface, and nearly completed Trojan virus. Worked with Jeffrey to iron out the last details of the game.
+
+We got this boys
 ==============================================================
 
 
