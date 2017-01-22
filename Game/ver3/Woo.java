@@ -87,6 +87,32 @@ public class Woo{
 			value = false;
 		    }
 
+        //Test for SEND Trojan
+        else if(userInput.equals("send trojan")){
+          System.out.println("");
+          System.out.println("Detected: 5 Vulnerabilities");
+          System.out.println("Access them?(y/n)");
+          if (userInput.equals("y")){
+	      System.out.println("Access backdoor?(y/n)");
+          if (userInput.equals("y")){
+              Trojan.activateVirus();
+	  }
+           else if(userInput.equals("n")){
+              System.out.println("Decided not to access backdoor.");
+            }
+            else {
+                System.out.println("Please insert a viable answer");
+            }
+          }
+          else if(userInput.equals("n")){
+            System.out.println("Decided not to access vulnerabilities.");
+          }
+          else {
+            	System.out.println("Please insert a viable answer!");
+          }
+
+
+        }
 		    
 
 		    else if(userInput.length() >= 4){
