@@ -119,3 +119,10 @@ For now, due to the fact that we are midway in developmental stages our repo is 
 Federico Tondolo :: Upgraded Decryptor class to make process of using it more streamlined.  Updated devlog.  Fixed bug when utilising command line where 1 letter commands would close the whole program and return an error.
 ==============================================================
 
+2016-01-21
+--------------------------------------------------------------
+Jeffrey Weng: Updated Woo, made minor changes to Commands and began work on Lock class. Also added descriptive comments(including instructions) to Commands, VFD, and Woo. Brainstormed last parts of game. 
+Allan Wang: Started work on Virus Interface, and nearly completed Trojan virus. Worked with Jeffrey to iron out the last details of the game.
+
+We got this boys
+
