@@ -17,7 +17,10 @@ public class Woo{
 
 	//THINGS TO DO
 	//CREATE NETWORK MANAGER - MAP OF GAME - SUPER CLASS, NEW INSTANCE EACH RUN, 2D ARRAY
-	//CREATE TIP BOT
+	//fix help
+	//create tools super class
+	//make puzzles
+	
 	//IMPLEMENT FEDERICOS DECRYPTOR
 	//GET ALL COMMANDS WORKING
 	//VIRUS CREATOR, TRIES TO WORK WITH THE FIRST PUZZLE, CREATE ONE VIRUS
@@ -50,18 +53,15 @@ public class Woo{
 	//START GAME LOOP-----------------------------------------------
 		while(value == true){
 		    System.out.println("-----------------------------");
-		    System.out.print("hacker@home:" + VFD.currentDir + "$");
+		    System.out.print("hacker@" + VFD.currentComputer+ ":" + VFD.currentDir + "$");
 		    System.out.print("");
 
 		    //Test COMMANDS
 		    String userInput = Keyboard.readString();
-		    if(userInput.length() < 2){
-			System.out.println("Please insert a viable command");
-			System.out.println("Try using the help command...");
-
-		    }
+		    try{
+ 
 		    //Test for CD
-		    else if(userInput.substring(0,2).equals("cd")){
+		    if(userInput.substring(0,2).equals("cd")){
 			System.out.println("");
 			Commands.changeDirectory(userInput.substring(3));
 		    }
@@ -86,24 +86,34 @@ public class Woo{
 		     else if(userInput.equals("exit")){
 			value = false;
 		    }
+		    //Test for SSH
+		     else if(userInput.substring(0,3).equals("ssh")){
+			 if(userInput.substring(4).length() == 12 && userInput.substring(4,11).equals("hacker@")){
+			     Commands.connectComputer(userInput.substring(4));
+			 }
+			 else{
+			     System.out.println("Please enter in the correct format");
+			 }
+		     }
 
 		    
 
-		    else if(userInput.length() >= 4){
-			if(userInput.substring(0,4).equals("open")){
+		    //Test for open
+		     else if(userInput.substring(0,4).equals("open")){
 			Commands.openFile(userInput.substring(5),userInput.substring(userInput.substring(5).length() + 1));
-		       	
-			}
-			else{
-		        System.out.println("Please insert a viable command");
-			System.out.println("Try using the help command...");
-			}
-		    }
+
+		     }
+		    
 
 
-
+		    
 		    else{
 		        System.out.println("Please insert a viable command");
+			System.out.println("Try using the help command...");
+		    }
+		    }
+		    catch(Exception e){
+			System.out.println("Please insert a viable command");
 			System.out.println("Try using the help command...");
 		    }
 		}

@@ -6,6 +6,7 @@ import java.io.FileNotFoundException;
 
 public class VFD{
     public static String currentDir = "root";
+    public static String currentComputer = "home";
     public static String pastDir = "";
     public static String[][] lockedFiles = new String[3][2];
     
@@ -22,6 +23,7 @@ public class VFD{
     //Check directories, and the paths they can take
     //2D array? maybe? rows with currentdir.equals and the columns with the input.equals???
     public static Boolean checkDir(String input){
+	if(currentComputer.equals("home")){
 	if (currentDir.equals("root") && (input.equals("tutorial") || input.equals("user"))){
 	    return true; 
 	}
@@ -29,11 +31,22 @@ public class VFD{
 	    return true;
 	    
 	}
+	}
+	else if(currentComputer.equals("34comp")){
+	    if(currentDir.equals("root") && (input.equals("file") || input.equals("anotherfile"))){
+		return true;
+	    }
+
+
+
+
+	}
 	return false;
     }
     //the content of the actual directories
     //make better? Arrays? 
     public static String dirContent(String input){
+	if (currentComputer.equals("home")){
 	if(input.equals("root")){
 	    String retStr = "";
 	    retStr += "user\n";
@@ -45,6 +58,15 @@ public class VFD{
 	    retStr += "largeTextFile.txt\n";
 	    retStr += "playGame.exe";
 	    return retStr;
+	}
+	}
+	else if(currentComputer.equals("34comp")){
+	    if (input.equals("root")){
+		String retStr = "";
+		retStr += "file\n";
+		retStr += "anotherfile";
+		return retStr;
+	    }
 	}
 	return "Nothing in here";
     }
@@ -74,7 +96,7 @@ public class VFD{
 			System.out.println("Proceeding....");
 			//----------------
 			if(input.equals("playGame.exe")){
-			    System.out.println("launch level 1");//switch computers
+			    System.out.println("launching level 1..");//switch computers
 			    return "";
 			}
 			//else if(input == "something"){

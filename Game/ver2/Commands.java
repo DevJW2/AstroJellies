@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.io.FileNotFoundException;
 
-//techincally could have this entire class in VFD... more organized I guess? 
+//technically could have this entire class in VFD... more organized I guess? 
 public class Commands{
 
     //cd command, changes directory, to user specified input
@@ -28,6 +28,26 @@ public class Commands{
 	    VFD.contentFile(input, extension);
 	}
 
+    }
+    public static void connectComputer(String input){
+	NetworkManager computerNetwork = new NetworkManager();
+	try{
+	    int xcoord = Integer.parseInt(input.substring(8,9));
+	    int ycoord = Integer.parseInt(input.substring(10,11));
+	    	
+	    System.out.println(computerNetwork.testCoordinates(xcoord,ycoord));
+	    if(computerNetwork.testCoordinates(xcoord,ycoord)){
+		VFD.currentComputer = "" + xcoord + ycoord + "comp";
+		VFD.currentDir = "root";
+		VFD.pastDir = "root";
+	    }
+	    else{
+		
+	    }
+	}
+	catch(Exception e){
+	    System.out.println("please enter in the correct format");
+	}
     }
     
 }
