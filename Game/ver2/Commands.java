@@ -49,6 +49,11 @@ public class Commands{
 	    System.out.println("please enter in the correct format");
 	}
     }
+
+    public static void networkMap(){
+	NetworkManager computerNetwork = new NetworkManager();
+	computerNetwork.printNetwork();
+    }
     
 }
 

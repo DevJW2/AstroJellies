@@ -59,7 +59,6 @@ public class Woo{
 		    //Test COMMANDS
 		    String userInput = Keyboard.readString();
 		    try{
- 
 		    //Test for CD
 		    if(userInput.substring(0,2).equals("cd")){
 			System.out.println("");
@@ -86,8 +85,17 @@ public class Woo{
 		     else if(userInput.equals("exit")){
 			value = false;
 		    }
+
+		    
+		    //Test for open
+		     else if(userInput.substring(0,4).equals("open")){
+			Commands.openFile(userInput.substring(5),userInput.substring(userInput.substring(5).length() + 1));
+
+		     }
+		    
 		    //Test for SSH
-		     else if(userInput.substring(0,3).equals("ssh")){
+    
+		     else if(userInput.substring(0,3).equals("ssh") && (!VFD.currentComputer.equals("home"))){
 			 if(userInput.substring(4).length() == 12 && userInput.substring(4,11).equals("hacker@")){
 			     Commands.connectComputer(userInput.substring(4));
 			 }
@@ -96,15 +104,9 @@ public class Woo{
 			 }
 		     }
 
-		    
-
-		    //Test for open
-		     else if(userInput.substring(0,4).equals("open")){
-			Commands.openFile(userInput.substring(5),userInput.substring(userInput.substring(5).length() + 1));
-
+		     else if(userInput.equals("netview") && (!VFD.currentComputer.equals("home"))){
+			 Commands.networkMap();
 		     }
-		    
-
 
 		    
 		    else{
