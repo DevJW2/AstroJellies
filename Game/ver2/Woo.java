@@ -15,6 +15,22 @@ public class Woo{
 	    }
 	
 
+	//THINGS TO DO
+	//CREATE NETWORK MANAGER - MAP OF GAME - SUPER CLASS, NEW INSTANCE EACH RUN, 2D ARRAY
+	//CREATE TIP BOT
+	//IMPLEMENT FEDERICOS DECRYPTOR
+	//GET ALL COMMANDS WORKING
+	//VIRUS CREATOR, TRIES TO WORK WITH THE FIRST PUZZLE, CREATE ONE VIRUS
+	//THAT DETECTS VULNERABILITES, USING INTERFACES
+	//CREATE TUTORIAL
+	//INITIATE OPEN SCENE
+
+	//WITH OPENING FILES
+	//CREATE stealth lost scenario
+	
+
+
+	
 	//INTRO-----------------------------------------------
 		System.out.println("Welcome....");
 		System.out.print("Please enter you name: ");
@@ -75,16 +91,6 @@ public class Woo{
 			System.out.println("Try using the help command...");
 		    }
 		}
-
-
-
-
-		//set up basic tutorial
-		//create basic puzzle
-		//create basic commands
-		//create VFD
-		//Solve puzzle
-		//go to scene 1
 
 	}
     	//END GAME LOOP-----------------------------------------------

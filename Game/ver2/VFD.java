@@ -1,7 +1,6 @@
 import java.util.ArrayList;
 
 public class VFD{
-    //arraylist with all directories, later on
     public static String currentDir = "root";
     public static String pastDir = "";
 
@@ -39,6 +38,8 @@ public class VFD{
 	return "Nothing in here";
     }
 
-    //public static String dirContent
+    public static String dirContent(){
+	
+    }
 
 }

@@ -17,10 +17,14 @@ public class Commands{
     public static void listDirectory(){
         System.out.println(VFD.dirContent(VFD.currentDir));
     }
-
-    // public static void openFile(){
+    //RULES FOR OPENING FILES
+    //TXT: the only files that are openable by this command without any lock
+    //OTHERS will have random chance of VIRUS attack: .exe, .png, .rtf, etc
+    //
+    public static void openFile(){
 	
-    //   }
+
+    }
     
 }
 
