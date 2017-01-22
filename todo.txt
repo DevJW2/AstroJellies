@@ -3,17 +3,42 @@ Jeffrey Weng
 Allan Wang
 AstroJellies
 APCS1 pd5
-1/13/2017 *updated
+1/22/2017 *updated
 
 1.  The fist step is to complete a more throoguh and accurate UML-diagram of the code ahead.  This should inlcude multiple classes.   Also, this will be the template for what is to come.
 -DONE-
 2.  Secondly, we will create a detailed description of each and every tool we wish to incorporate either in the hacker's arsenal or in the game itself.  This will aid us in future to keep our ideas clear.
 -DONE-
+
+MVP
 3.  After reminding ourselves of what our MVP should contain (using our proposal), we will (as a third step) slowly begin assembling this code.
 -DONE-
 4.  As our MVP requires a number of different algorithms. We will begin work immediately. It is important to note that should anyone individual need help, the help would be promptly supplied by the remaining team members.
 -DONE-
 5.  Improve aesthetics of interface to be more similar to that of the terminal.
 -DONE-
-6.  Adapt the hacker tools and their functionality such that they may work, even if it is simply at the "tutorial-level".
+
+Tutorial
+6.  Fix up Tutorial, by setting up file reading, locked files, and external file reading.
+-DONE-
+
+Start on Puzzle portion(Actual Game)
+
+8. Create Virus Creator interface, with a virus called vulnerabilityDetector that implements virusCreator, creates problems to weaken security of files
+
+9. Create network manager, with a 2d array, wiht numbers and characters, to illustrate the network map and the different computer systems you can log into
+
+10. Set up computer switching, hacker@home <-- home is a computer, hacker@someOtherComputer <---, which has a whole set of other directories
+
+11. Set up Detection, when you lose stealth as a hacker, a random chance when you open a file, which will give you a challenge you must do to further proceed
+
+12. Implement Decryptor into your Woo
+
+13. Make everything work together, with the PUZZLE idea complete in your mind 
+
+14. Maybe set up TIP bot
+
+15. End Scenario/End Game
+
+
 	

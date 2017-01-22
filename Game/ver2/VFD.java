@@ -78,12 +78,13 @@ public class VFD{
 			//}
 		    }
 		    else{
-			//what happens if they dont get the password right
+			System.out.println("WRONG PASSWORD");
+		        return "";
 		    }
 		    
 		}
 		else{
-		    System.out.println("whatever file that doesn't need a lock");
+		    System.out.println("This is an executable file that can be accessed without a lock");
 		}
 		
 	    }
