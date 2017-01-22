@@ -135,6 +135,13 @@ Allan Wang: Started work on Virus Interface, and nearly completed Trojan virus. 
 We got this boys
 ==============================================================
 
+2016-01-22
+--------------------------------------------------------------
+Jeffrey Weng :: Created Network map, tools superclass, created more files and locked files, created computer systems and switching between them, added exception handling, connectComputer and netview commands, updated todo list, and updated devlog.
+
+
+==============================================================
+
 
 
 
