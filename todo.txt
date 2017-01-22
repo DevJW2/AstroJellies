@@ -25,8 +25,10 @@ Tutorial
 Start on Puzzle portion(Actual Game)
 
 8. Create Virus Creator interface, with a virus called vulnerabilityDetector that implements virusCreator, creates problems to weaken security of files
+(Allan)
 
 9. Create network manager, with a 2d array, wiht numbers and characters, to illustrate the network map and the different computer systems you can log into
+(Jeffrey, continue to work on the initial scene from tutorial and add items to largeTextFile)
 
 10. Set up computer switching, hacker@home <-- home is a computer, hacker@someOtherComputer <---, which has a whole set of other directories
 
