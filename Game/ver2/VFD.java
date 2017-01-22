@@ -64,6 +64,7 @@ public class VFD{
 	//LOCKED FILES + EXECUTABLE FILES
 	else if(extension.equals(".exe")){
 	    for(int i = 0; i < lockedFiles.length; i++){
+		//can be a separate class/method ---------------
 		if(input.equals(lockedFiles[i][0])){
 		    System.out.println("LOCKED");
 		    System.out.print("ENTER PASSWORD:");
@@ -71,8 +72,10 @@ public class VFD{
 		    if(pass.equals(lockedFiles[i][1])){
 			System.out.println("You got in");
 			System.out.println("Proceeding....");
+			//----------------
 			if(input.equals("playGame.exe")){
 			    System.out.println("launch level 1");//switch computers
+			    return "";
 			}
 			//else if(input == "something"){
 			//}
