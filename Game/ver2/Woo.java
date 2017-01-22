@@ -16,7 +16,6 @@ public class Woo{
 
 
 	//THINGS TO DO
-	//CREATE NETWORK MANAGER - MAP OF GAME - SUPER CLASS, NEW INSTANCE EACH RUN, 2D ARRAY
 	//fix help
 	//create tools super class
 	//make puzzles

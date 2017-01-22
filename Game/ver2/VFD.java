@@ -28,19 +28,25 @@ public class VFD{
 	    return true; 
 	}
 	else if(currentDir.equals("tutorial") && (input.equals("largeTextFile.txt") || input.equals("playGame.exe"))){
-	    return true;
-	    
+	    return true;   
 	}
 	}
 	else if(currentComputer.equals("43comp")){
 	    if(currentDir.equals("root") && (input.equals("file") || input.equals("anotherfile"))){
 		return true;
 	    }
-
-
-
-
 	}
+	else if(currentComputer.equals("75comp")){
+	    if(currentDir.equals("root") && (input.equals("something") || input.equals("anothersomething"))){
+		return true;
+	    }
+	}
+	else if(currentComputer.equals("99comp")){
+	    if(currentDir.equals("root") && (input.equals("End.exe"))){
+		return true;
+	    }
+	}
+	
 	return false;
     }
     //the content of the actual directories
@@ -68,6 +74,24 @@ public class VFD{
 		return retStr;
 	    }
 	}
+	else if(currentComputer.equals("75comp")){
+	    if(input.equals("root")){
+		String retStr = "";
+		retStr += "something\n";
+		retStr += "anothersomething";
+		return retStr;
+	    }
+	    }
+	else if(currentComputer.equals("99comp")){
+	    if(input.equals("root")){
+		String retStr = "";
+		retStr += "End.exe";
+		return retStr;
+	    }
+	}
+	
+	
+    
 	return "Nothing in here";
     }
 
@@ -75,6 +99,8 @@ public class VFD{
 	//Name, Password, respectively
 	lockedFiles[0][0] = "playGame.exe";
 	lockedFiles[0][1] = "password";
+	lockedFiles[1][0] = "End.exe";
+	lockedFiles[1][1] = "endgame";
 	
 	if(extension.equals(".txt")){
 	    Scanner thing = new Scanner(new File(input));
@@ -102,8 +128,10 @@ public class VFD{
 			    pastDir = "root";
 			    return "";
 			}
-			//else if(input == "something"){
-			//}
+		        else if(input.equals("End.exe")){
+			    System.out.println("you have reached the end!");
+			    return "";
+			}
 		    }
 		    else{
 			System.out.println("WRONG PASSWORD");
@@ -111,11 +139,11 @@ public class VFD{
 		    }
 		    
 		}
-		else{
-		    System.out.println("This is an executable file that can be accessed without a lock");
-		}
 		
 	    }
+	        
+	    System.out.println("This is an executable file that can be accessed without a lock");
+		
 	}
 
 	return "contentFile";
