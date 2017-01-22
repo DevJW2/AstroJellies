@@ -32,7 +32,7 @@ public class VFD{
 	    
 	}
 	}
-	else if(currentComputer.equals("34comp")){
+	else if(currentComputer.equals("43comp")){
 	    if(currentDir.equals("root") && (input.equals("file") || input.equals("anotherfile"))){
 		return true;
 	    }
@@ -60,7 +60,7 @@ public class VFD{
 	    return retStr;
 	}
 	}
-	else if(currentComputer.equals("34comp")){
+	else if(currentComputer.equals("43comp")){
 	    if (input.equals("root")){
 		String retStr = "";
 		retStr += "file\n";
@@ -97,6 +97,9 @@ public class VFD{
 			//----------------
 			if(input.equals("playGame.exe")){
 			    System.out.println("launching level 1..");//switch computers
+			    currentComputer = "43comp";
+			    currentDir = "root";
+			    pastDir = "root";
 			    return "";
 			}
 			//else if(input == "something"){

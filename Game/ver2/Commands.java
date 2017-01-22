@@ -34,10 +34,13 @@ public class Commands{
 	try{
 	    int xcoord = Integer.parseInt(input.substring(8,9));
 	    int ycoord = Integer.parseInt(input.substring(10,11));
-	    	
-	    System.out.println(computerNetwork.testCoordinates(xcoord,ycoord));
-	    if(computerNetwork.testCoordinates(xcoord,ycoord)){
-		VFD.currentComputer = "" + xcoord + ycoord + "comp";
+
+	    
+	    System.out.println(computerNetwork.testCoordinates(ycoord,xcoord));
+	    System.out.println(xcoord);
+		System.out.println(ycoord);
+	    if(computerNetwork.testCoordinates(ycoord,xcoord)){
+		VFD.currentComputer = "" + ycoord + xcoord + "comp";
 		VFD.currentDir = "root";
 		VFD.pastDir = "root";
 	    }

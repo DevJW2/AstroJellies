@@ -9,7 +9,8 @@ public class NetworkManager{
     public static void main(String[] args){
 
 	printNetwork();
-
+	NetworkManager thing = new NetworkManager();
+	System.out.println(thing.testCoordinates(5,7));
 
     }
     public static void printNetwork(){
@@ -30,7 +31,7 @@ public class NetworkManager{
     }
 
     public Boolean testCoordinates(int xcord, int ycord){
-	if (network[ycord][xcord] == 1){
+	if (network[xcord][ycord] == 1){
 	    return true;
 	}
 	return false;
