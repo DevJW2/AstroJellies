@@ -13,7 +13,7 @@ public class Woo{
 	    {
 		System.out.println(input.nextLine());
 	    }
-	
+
 
 	//THINGS TO DO
 	//CREATE NETWORK MANAGER - MAP OF GAME - SUPER CLASS, NEW INSTANCE EACH RUN, 2D ARRAY
@@ -27,10 +27,10 @@ public class Woo{
 
 	//WITH OPENING FILES
 	//CREATE stealth lost scenario
-	
 
 
-	
+
+
 	//INTRO-----------------------------------------------
 		System.out.println("Welcome....");
 		System.out.print("Please enter you name: ");
@@ -52,13 +52,13 @@ public class Woo{
 		    System.out.println("-----------------------------");
 		    System.out.print("hacker@home:" + VFD.currentDir + "$");
 		    System.out.print("");
-		    
+
 		    //Test COMMANDS
 		    String userInput = Keyboard.readString();
 		    if(userInput.length() < 2){
 			System.out.println("Please insert a viable command");
 			System.out.println("Try using the help command...");
-			
+
 		    }
 		    //Test for CD
 		    else if(userInput.substring(0,2).equals("cd")){
@@ -66,7 +66,7 @@ public class Woo{
 			Commands.changeDirectory(userInput.substring(3));
 		    }
 
-		    
+
 		    //Test for LS
 		    else if(userInput.equals("ls")){
 			Commands.listDirectory();
@@ -86,6 +86,32 @@ public class Woo{
 		    else if(userInput.equals("exit")){
 			value = false;
 		    }
+        //Test for SEND Trojan
+        else if(userInput.equals("send trojan")){
+          System.out.println("");
+          System.out.println("Detected: 5 Vulnerabilities");
+          System.out.println("Access them?(y/n)");
+          if (userInput.equals("y")){
+            System.out.println("Access backdoor?(y/n)");
+            if (userInput.equals("y")){
+              Trojan.activateVirus();
+            }
+            else if(userInput.equals("n")){
+              System.out.println("Decided not to access backdoor.");
+            }
+            else {
+                System.out.println("Please insert a viable answer");
+            }
+          }
+          else if(userInput.equals("n")){
+            System.out.println("Decided not to access vulnerabilities.");
+          }
+          else {
+            	System.out.println("Please insert a viable answer!");
+          }
+
+
+        }
 		    else{
 		        System.out.println("Please insert a viable command");
 			System.out.println("Try using the help command...");
