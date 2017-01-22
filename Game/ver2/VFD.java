@@ -7,8 +7,7 @@ import java.io.FileNotFoundException;
 public class VFD{
     public static String currentDir = "root";
     public static String pastDir = "";
-    public static
-    String[][] lockedFiles = new String[3][2];
+    public static String[][] lockedFiles = new String[3][2];
     
 
     public static String getcurrentDir(){
