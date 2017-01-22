@@ -117,5 +117,19 @@ For now, due to the fact that we are midway in developmental stages our repo is 
 2016-01-18
 --------------------------------------------------------------
 Federico Tondolo :: Upgraded Decryptor class to make process of using it more streamlined.  Updated devlog.  Fixed bug when utilising command line where 1 letter commands would close the whole program and return an error.
+Jeffrey Weng :: Minor changes on woo class, updated devlog, updated version history
 ==============================================================
+
+2016-01-20
+--------------------------------------------------------------
+Jeffrey Weng :: FIXED, finally, made it so it was less redundant, having Commands being more concise, with VFD carrying all the tedious text and content such as dirContent or checkDir. Fixing prompt, and made it easier for future coding. 
+==============================================================
+
+2016-01-21
+--------------------------------------------------------------
+Jeffrey Weng :: Commented everything, made it easier to understand what each method did. Added back tracking for cd, started on openFile method. 
+==============================================================
+
+
+
 
