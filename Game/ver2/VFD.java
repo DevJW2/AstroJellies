@@ -115,6 +115,8 @@ public class VFD{
 		//can be a separate class/method ---------------
 		if(input.equals(lockedFiles[i][0])){
 		    System.out.println("LOCKED FILE");
+		    System.out.println("Password is: password for playGame.exe");
+		    System.out.println("Password is: endgame for End.exe");
 		    System.out.print("Enter Password:");
 		    String pass = Keyboard.readString();
 		    if(pass.equals(lockedFiles[i][1])){
