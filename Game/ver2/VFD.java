@@ -114,22 +114,32 @@ public class VFD{
 	    for(int i = 0; i < lockedFiles.length; i++){
 		//can be a separate class/method ---------------
 		if(input.equals(lockedFiles[i][0])){
-		    System.out.println("LOCKED");
-		    System.out.print("ENTER PASSWORD:");
+		    System.out.println("LOCKED FILE");
+		    System.out.print("Enter Password:");
 		    String pass = Keyboard.readString();
 		    if(pass.equals(lockedFiles[i][1])){
-			System.out.println("You got in");
+			System.out.println("Processing Password.....");
+			System.out.println("Unlocking...");
 			System.out.println("Proceeding....");
+			System.out.println("Password Is Correct");
 			//----------------
 			if(input.equals("playGame.exe")){
-			    System.out.println("launching level 1..");//switch computers
+			    System.out.println("You have Finished Tutorial");//switch computers
+			    System.out.println("You are now ready... Hacker");
+			    System.out.println("");
+			    System.out.println("System Reboot...");
+			    System.out.println("Flying through Data Space");
+			    System.out.println("ERRORORORORORORORORORORO");
+			    System.out.println("Just kidding");
+			    System.out.println("Entering Random Enemy Computer..");
 			    currentComputer = "43comp";
 			    currentDir = "root";
 			    pastDir = "root";
 			    return "";
 			}
 		        else if(input.equals("End.exe")){
-			    System.out.println("you have reached the end!");
+			    System.out.println("Congratuatations on solving our puzzles, you have now reached the last frontier");
+			    System.out.println("Welcome to End Game");
 			    return "";
 			}
 		    }

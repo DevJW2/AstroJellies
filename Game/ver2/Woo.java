@@ -15,20 +15,6 @@ public class Woo{
 	    }
 
 
-	//THINGS TO DO
-	//fix help
-	//Aesthetics concerning the locks and the backstory and others
-	//make puzzles including tutorial one
-	
-	//IMPLEMENT FEDERICOS DECRYPTOR
-	
-	//VIRUS CREATOR, TRIES TO WORK WITH THE FIRST PUZZLE, CREATE ONE VIRUS
-	//THAT DETECTS VULNERABILITES, USING INTERFACES
-	
-
-
-
-
 	//INTRO-----------------------------------------------
 		System.out.println("Welcome....");
 		System.out.print("Please enter you name: ");
