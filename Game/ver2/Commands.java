@@ -17,5 +17,13 @@ public class Commands{
     public static void listDirectory(){
         System.out.println(VFD.dirContent(VFD.currentDir));
     }
+
+    // public static void openFile(){
+	
+    //   }
     
 }
+
+
+
+
