@@ -87,12 +87,37 @@ public class Woo{
 			value = false;
 		    }
 
+
 		    
+
+        //Test for SEND Trojan
+        else if(userInput.equals("send trojan")){
+          System.out.println("Found " + Trojan.findVulnerabilities() + " vulnerabilities.");
+          System.out.println("Access them?(y/n)");
+          if (userInput.equals("y")){
+            System.out.println("Which vulnerability would you like to access?");
+            //user inputs a vulernability
+            //check against Vuls to see if the user had a legitimate response
+            //if user did indeed have legit response, userChoice updates to true
+            //run exploitedVul as obstacle, if user is correct userChoice stays true
+            //if userChoice is still true now, we run activateVirus to finish the process
+
+
+          }
+          else if (userInput.equals("n")){
+            System.out.println("Decided not to access vulnerabilities");
+          }
+          else {
+            System.out.println("Please return a valid response.");
+          }
+        }
+
+
 
 		    else if(userInput.length() >= 4){
 			if(userInput.substring(0,4).equals("open")){
 			Commands.openFile(userInput.substring(5),userInput.substring(userInput.substring(5).length() + 1));
-		       	
+
 			}
 			else{
 		        System.out.println("Please insert a viable command");

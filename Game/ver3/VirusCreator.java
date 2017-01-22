@@ -6,8 +6,8 @@ public interface VirusCreator {
 
   boolean testVulnerability(Object file);
 
-  //mini to activate the Virus
-  void activateVirus();
+
+
 
 
 
