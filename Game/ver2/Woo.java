@@ -83,9 +83,21 @@ public class Woo{
 			System.out.println("To exit out of loop: exit");
 		    }
 		    //Test for EXIT
-		    else if(userInput.equals("exit")){
+		     else if(userInput.equals("exit")){
 			value = false;
 		    }
+		    else if(userInput.length() >= 4){
+			if(userInput.substring(0,4).equals("open")){
+			Commands.openFile(userInput.substring(5),userInput.substring(userInput.substring(5).length() + 1));
+		       	
+			}
+			else{
+		        System.out.println("Please insert a viable command");
+			System.out.println("Try using the help command...");
+			}
+		    }
+
+
 		    else{
 		        System.out.println("Please insert a viable command");
 			System.out.println("Try using the help command...");
