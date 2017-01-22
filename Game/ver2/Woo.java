@@ -17,18 +17,14 @@ public class Woo{
 
 	//THINGS TO DO
 	//fix help
-	//create tools super class
-	//make puzzles
+	//Aesthetics concerning the locks and the backstory and others
+	//make puzzles including tutorial one
 	
 	//IMPLEMENT FEDERICOS DECRYPTOR
-	//GET ALL COMMANDS WORKING
+	
 	//VIRUS CREATOR, TRIES TO WORK WITH THE FIRST PUZZLE, CREATE ONE VIRUS
 	//THAT DETECTS VULNERABILITES, USING INTERFACES
-	//CREATE TUTORIAL
-	//INITIATE OPEN SCENE
-
-	//WITH OPENING FILES
-	//CREATE stealth lost scenario
+	
 
 
 
@@ -71,14 +67,43 @@ public class Woo{
 			}
 		    //Test for HELP
 		    else if(userInput.equals("help")){
+	        	System.out.println("------------------------------------------------------");
+			System.out.println("< > do not type this, type the info described in < >");
 			System.out.println("");
-			System.out.println("list directory files: ls");
-			System.out.println("--------------------------");
-			System.out.println("change directory: cd ....");
-			System.out.println("---------------------------");
-			System.out.println("NOT PART OF GAME");
-			System.out.println("---ADMIN---");
-			System.out.println("To exit out of loop: exit");
+			System.out.println("");
+			System.out.println("------------------------------------------------------");
+			System.out.println("Command: ls");
+			System.out.println("list directory files");
+			System.out.println("");
+			System.out.println("------------------------------------------------------");
+			System.out.println("Command: cd");
+			System.out.println("change directory");
+			System.out.println("Format: cd <type here>");
+			System.out.println("");
+		        System.out.println("------------------------------------------------------");
+			System.out.println("Command: open");
+			System.out.println("opens any files: .exe, .txt, etc");
+			System.out.println("Format: open <type here>");
+			System.out.println("");
+		      	System.out.println("------------------------------------------------------");
+			System.out.println("Command: ssh");
+			System.out.println("WARNING: ONLY WORKS AFTER YOU BEAT TUTORIAL");
+			System.out.println("connects to any computer on the network map");
+			System.out.println("Format: ssh hacker@[<xcoordinate>,<ycoordinate>]");
+			System.out.println("");
+	        	System.out.println("------------------------------------------------------");
+			System.out.println("Command: netview");
+			System.out.println("WARNING: ONLY WORKS AFTER YOU BEAT TUTORIAL");
+			System.out.println("shows your network map");
+			System.out.println("");
+	        	System.out.println("------------------------------------------------------"); 
+			System.out.println("---NOT PART OF THE GAME---");
+			System.out.println("");
+			System.out.println("Command: exit");
+			System.out.println("To exit out of Game Loop");
+			System.out.println("");
+	        	System.out.println("------------------------------------------------------");
+			
 		    }
 		    //Test for EXIT
 		     else if(userInput.equals("exit")){
