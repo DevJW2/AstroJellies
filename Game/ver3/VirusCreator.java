@@ -4,7 +4,6 @@ public interface VirusCreator {
   String virusType();
 
 
-  boolean testVulnerability(Object file);
 
 
 

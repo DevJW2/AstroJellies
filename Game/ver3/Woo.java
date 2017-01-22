@@ -88,24 +88,36 @@ public class Woo{
 		    }
 
         else if(userInput.equals("send trojan")){
-          System.out.println("Found " + Trojan.findVulnerabilities() + " vulnerabilities.");
+          Trojan.findVulnerabilities();
+          System.out.println("Found " + Trojan.getVuls() + " vulnerabilities.");
           System.out.println("Access them?(y/n)");
-          if (userInput.equals("y")){
+          /*if (userInput.equals("y")){
             System.out.println("Which vulnerability would you like to access?");
             //user inputs a vulernability
+          Trojan.testUserChoice(userInput);
             //check against Vuls to see if the user had a legitimate response
             //if user did indeed have legit response, userChoice updates to true
-            //run exploitedVul as obstacle, if user is correct userChoice stays true
-            //if userChoice is still true now, we run activateVirus to finish the process
-
+            if (Trojan.getUserChoice()){
+              Trojan.exploitedVul();
+              //run exploitedVul as obstacle, if user is correct userChoice stays true
+              if (Trojan.getUserChoice()){
+                Trojan.activateVirus();
+                //if userChoice is still true now, we run activateVirus to finish the process
+              }
+            }
+            else {
+              System.out.println("Please choose a valid vulnerability");
+            }
 
           }
+
           else if (userInput.equals("n")){
             System.out.println("Decided not to access vulnerabilities");
           }
           else {
             System.out.println("Please return a valid response.");
           }
+          */
         }
 
 
