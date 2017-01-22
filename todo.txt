@@ -26,6 +26,7 @@ Start on Puzzle portion(Actual Game)
 
 8. Create Virus Creator interface, with a virus called vulnerabilityDetector that implements virusCreator, creates problems to weaken security of files
 (Allan)
+-DONE-
 
 9. Create network manager, with a 2d array, wiht numbers and characters, to illustrate the network map and the different computer systems you can log into
 (Jeffrey, continue to work on the initial scene from tutorial and add items to largeTextFile)
@@ -38,17 +39,20 @@ Start on Puzzle portion(Actual Game)
 -Not Doing-
 12. Implement Decryptor into your Woo
 
-13. Make everything work together, with the PUZZLE idea complete in your mind 
+13. Make everything work together, with the PUZZLE idea complete in your mind
 
 14. Maybe set up TIP bot
 -Not Doing-
 15. End Scenario/End Game
 
 16. Fix HELP/Game Manual
+-DONE-
 
 17. Fix Aesthetics + backstory
+-DONE-
 
 18. update UML, flowchart, and proposal
+
 
 
 

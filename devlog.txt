@@ -10,24 +10,36 @@ Shall We Play a Game?
 ------------------------------------------
 OBSTACLES OVERCOME
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-wow we so BOSS bc...
+-Interactions between different classes, between commands and directory, soon became cluttered, but soon was put into
+one method, and made more efficient
+-Reading from outside text, was hard, but we found out eventually
+-Having a full Game Loop to coordinate everything, with it constantly checking for commands, and updating the terminal
+-Handling of MOST errors, with the try and catch, and else statements
+
 
 UNRESOLVED ISSUES
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-blah blah pesky bug...
-maybe some of these will move into the Obs.Ovrcm section...
+Puzzles not fleshed out, made it into a more proof of concept, and less of a game
+Commands have to be typed EXACTLY, no spaces
 
 COOL STUFF LEARNED
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-wow! oo!...
+Learned more about interactions, and how to make more efficient code, which allowed content to be easily added
 
 MID-DEVELOPMENT DESIGN CHANGES
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-we changed ___ to ___ bc...
+We changed to a proof-of-concept game, with lots of mechanics, but less game, because of time constraints due to finals and tests
+and bad team coordination.
 
 LESSONS LEARNED
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-tales of wisdom gained...
+-Make sure everyone has a good idea of what the game is, or there's going to be a bunch of random ideas thrown around that don't make sense
+-Short deadlines combined with stressful weak = lots of misery, it's sometimes better to have smaller projects that are completely finished than larger projects that
+can't be done with the deadline
+-the uses of static, we used a lot of static
+
+Choose your members wisely because you'll end up regretting it - Jeffrey Weng
+
 ||||||||||||||||||||||||||||||||||||||||||
 
 
