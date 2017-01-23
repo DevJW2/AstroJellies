@@ -8,18 +8,16 @@ public class Decryptor{
     public static String alphabet = "abcdefghijklmnopqrstuvwxyz";
     public static void setupEr(){
       System.out.println("Do you wish to encrypt or decrypt or brute force a message?");
-      System.out.println("Enter either 'e' or 'd' or 'b'.");
+      System.out.println("Enter y to confirm");
     }
     public static void completeUpdate(String input){
-      if (input.substring(0,1).equals("d")){
+      if (input.substring(0,1).equals("y")){
             System.out.println("Please enter string you wish to decrypt.");
             more=1;
             modeSelector("d");
           }
       else if (input.substring(0,1).equals("b")){
-            System.out.println("Please enter string you wish to decrypt.");
-            more=1;
-            modeSelector("b");
+            System.out.println("Functionality not available in prototype.  Sorry!");
           }
     else {
       System.out.println(input);
@@ -50,16 +48,13 @@ public class Decryptor{
     String fans="";
       if (currentMode==2){
         System.out.println("Decrypting...");
-        for (int x =0; x<27;x++){
-          if(x+inputHash>26){
-            ans = Character.toString(inputString.charAt(x+inputHash-26));
+        for (int q=0; q<inputString.length();q++){
+        for (int x=0; x<alphabet.length();x++){
+          if (alphabet.substring(x,x+1).equals(inputString.substring(q,q+1))){
+            fans+=alphabet.substring(x+inputHash,x+inputHash+1);
           }
-          else{
-            ans =Character.toString(inputString.charAt(x+inputHash));
-          }
-          fans+=ans;
-        }
-
+}
+}
       }
       else if (currentMode==0){
         System.out.println("Decrypting through brute-force...");

@@ -9,13 +9,13 @@ public class VFD{
     public static String currentComputer = "home";
     public static String pastDir = "";
     public static String[][] lockedFiles = new String[3][2];
-    
+
 
     public static String getcurrentDir(){
-	return currentDir; 
+	return currentDir;
     }
 
-    //check the current directory 
+    //check the current directory
     public static void checkState(){
 	System.out.println(currentDir);
     }
@@ -25,10 +25,10 @@ public class VFD{
     public static Boolean checkDir(String input){
 	if(currentComputer.equals("home")){
 	if (currentDir.equals("root") && (input.equals("tutorial") || input.equals("user"))){
-	    return true; 
+	    return true;
 	}
 	else if(currentDir.equals("tutorial") && (input.equals("largeTextFile.txt") || input.equals("playGame.exe"))){
-	    return true;   
+	    return true;
 	}
 	}
 	else if(currentComputer.equals("43comp")){
@@ -46,18 +46,18 @@ public class VFD{
 		return true;
 	    }
 	}
-	
+
 	return false;
     }
     //the content of the actual directories
-    //make better? Arrays? 
+    //make better? Arrays?
     public static String dirContent(String input){
 	if (currentComputer.equals("home")){
 	if(input.equals("root")){
 	    String retStr = "";
 	    retStr += "user\n";
 	    retStr += "tutorial";
-	    return retStr;  
+	    return retStr;
 	}
 	else if(input.equals("tutorial")){
 	    String retStr = "";
@@ -69,8 +69,8 @@ public class VFD{
 	else if(currentComputer.equals("43comp")){
 	    if (input.equals("root")){
 		String retStr = "";
-		retStr += "file\n";
-		retStr += "anotherfile";
+		retStr += "shift2\n";
+		retStr += "emrmamknsrcpdgtcqctcl";
 		return retStr;
 	    }
 	}
@@ -89,9 +89,9 @@ public class VFD{
 		return retStr;
 	    }
 	}
-	
-	
-    
+
+
+
 	return "Nothing in here";
     }
 
@@ -101,7 +101,7 @@ public class VFD{
 	lockedFiles[0][1] = "password";
 	lockedFiles[1][0] = "End.exe";
 	lockedFiles[1][1] = "endgame";
-	
+
 	if(extension.equals(".txt")){
 	    Scanner thing = new Scanner(new File(input));
 	    while (thing.hasNextLine())
@@ -131,7 +131,7 @@ public class VFD{
 			    System.out.println("");
 			    System.out.println("System Reboot...");
 			    System.out.println("Flying through Data Space");
-			    System.out.println("ERRORORORORORORORORORORO");
+			    System.out.println("ERROROROROROROROROROROROR");
 			    System.out.println("Just kidding");
 			    System.out.println("Entering Random Enemy Computer..");
 			    currentComputer = "43comp";
@@ -149,13 +149,13 @@ public class VFD{
 			System.out.println("WRONG PASSWORD");
 		        return "";
 		    }
-		    
+
 		}
-		
+
 	    }
-	        
+
 	    System.out.println("This is an executable file that can be accessed without a lock");
-		
+
 	}
 
 	return "contentFile";
