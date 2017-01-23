@@ -65,8 +65,10 @@ public class Woo{
 			System.out.println("Command: cd");
 			System.out.println("change directory");
 			System.out.println("Format: cd <type here>");
+			System.out.println("REMEMBER: cd .. goes back a directory in UNIX");
 			System.out.println("");
 		        System.out.println("------------------------------------------------------");
+			
 			System.out.println("Command: open");
 			System.out.println("opens any files: .exe, .txt, etc");
 			System.out.println("Format: open <type here>");
