@@ -10,6 +10,7 @@ public class Decryptor extends Tools{
       System.out.println("Do you wish to encrypt or decrypt or brute force a message?");
       System.out.println("Enter y to confirm");
     }
+
     public static void completeUpdate(String input){
       if (input.substring(0,1).equals("y")){
             System.out.println("Please enter string you wish to decrypt.");
@@ -24,25 +25,29 @@ public class Decryptor extends Tools{
       System.out.println("Functionality not available in prototype.  Sorry!");
       more=0;
     }
-        }
+    }
+
     public static void stringSet(String input){
       inputString = input;
     }
+
     public static void hashSet(String hash){
       inputHash = Integer.parseInt(hash);
     }
+
     public static int modeSelector(String mode){
-      if (mode.equals("e")){
+      if (mode.equals("e")){ //encrypt
         currentMode=1;
       }
-      else if (mode.equals("d")){
+      else if (mode.equals("d")){ //decrypt
         currentMode=2;
       }
-      else if (mode.equals("b")){
+      else if (mode.equals("b")){ //brute-force
         currentMode=0;
       }
       return currentMode;
     }
+
     public static String solveCode(){
     String ans="";
     String fans="";
@@ -53,8 +58,8 @@ public class Decryptor extends Tools{
           if (alphabet.substring(x,x+1).equals(inputString.substring(q,q+1))){
             fans+=alphabet.substring(x+inputHash,x+inputHash+1);
           }
-}
-}
+        }
+      }
       }
       else if (currentMode==0){
         System.out.println("Decrypting through brute-force...");
@@ -64,7 +69,7 @@ public class Decryptor extends Tools{
               ans = Character.toString(inputString.charAt(x+q-27));
               }
             else{
-             ans=Character.toString(inputString.charAt(x+q));
+             ans = Character.toString(inputString.charAt(x+q));
             }
            fans+=ans;
         }
@@ -77,9 +82,9 @@ public class Decryptor extends Tools{
           ans = Character.toString(inputString.charAt(27-(x-inputHash)));
         }
         else{
-          ans=Character.toString(inputString.charAt(x-inputHash));
+          ans = Character.toString(inputString.charAt(x-inputHash));
         }
-        fans+=ans;
+        fans += ans;
       }
     }
     return fans;

@@ -119,11 +119,11 @@ public class VFD{
 		    System.out.println("Password is: endgame for End.exe");
 		    System.out.print("Enter Password:");
 		    String pass = Keyboard.readString();
-		    if(pass.equals(lockedFiles[i][1])){
-			System.out.println("Processing Password.....");
-			System.out.println("Unlocking...");
-			System.out.println("Proceeding....");
-			System.out.println("Password Is Correct");
+		  if(pass.equals(lockedFiles[i][1])){
+			    System.out.println("Processing Password.....");
+			    System.out.println("Unlocking...");
+			    System.out.println("Proceeding....");
+			    System.out.println("Password Is Correct");
 			//----------------
 			if(input.equals("playGame.exe")){
 			    System.out.println("You have Finished Tutorial");//switch computers
@@ -139,26 +139,22 @@ public class VFD{
 			    pastDir = "root";
 			    return "";
 			}
-		        else if(input.equals("End.exe")){
+		      else if(input.equals("End.exe")){
 			    System.out.println("Congratuatations on solving our puzzles, you have now reached the last frontier");
 			    System.out.println("Welcome to End Game");
 			    return "";
 			}
-		    }
+		  }
 		    else{
-			System.out.println("WRONG PASSWORD");
+			       System.out.println("WRONG PASSWORD");
 		        return "";
 		    }
-
 		}
 
-	    }
-
-	    System.out.println("This is an executable file that can be accessed without a lock");
-
+	  }
+	  System.out.println("This is an executable file that can be accessed without a lock");
 	}
-
-	return "contentFile";
+	  return "contentFile";
     }
 
 }

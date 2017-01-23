@@ -1,4 +1,3 @@
-import cs1.Keyboard;
 import java.util.Scanner;
 import java.util.Arrays;
 
@@ -8,7 +7,6 @@ public class Vulndetector implements VirusCreator {
   private String type = "Trojan";
   private static String[] chars = {"@", "#", "$", "%", "^", "&", "*", "9"};
   public static String[] Vuls = new String[10];
-//  public static String userInput = Keyboard.readString();
   public static boolean userChoice = true;
 
   public int virusID(){
@@ -37,7 +35,7 @@ public class Vulndetector implements VirusCreator {
   }
 
 
-
+  //randomly generate array of vulnerabilities
   public static String[] findVulnerabilities(){
     int numVul = (int)(Math.random() * 5 );
     for (int i=0; i< numVul-1; i++){
@@ -46,6 +44,7 @@ public class Vulndetector implements VirusCreator {
     }
     return Vuls;
   }
+
 
   //confirm the user picked one of the vulnerabilities
   //use within Woo
@@ -86,16 +85,6 @@ public class Vulndetector implements VirusCreator {
 
 
   }
-
-  public static void main(String[] args){
-    Vulndetector test = new Vulndetector();
-    test.findVulnerabilities();
-    System.out.println(test.getVuls());
-    System.out.println(chars);
-    System.out.println(chars.length);
-  }
-
-
 
 
 
