@@ -34,7 +34,7 @@ public class Woo{
 	//START GAME LOOP-----------------------------------------------
 		while(value == true){
 		    System.out.println("-----------------------------");
-		    System.out.print("hacker@" + VFD.currentComputer+ ":" + VFD.currentDir + "$");
+		    System.out.print("hacker@" + VFD.currentComputer+ ":" + VFD.currentDir + "$ ");
 		    System.out.print("");
 
 		    //Test COMMANDS
