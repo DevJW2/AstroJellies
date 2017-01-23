@@ -32,6 +32,8 @@ public class Commands{
 	  }
 
     }
+    
+    //connects to computer with input coordinates
     public static void connectComputer(String input){
 	     NetworkManager computerNetwork = new NetworkManager();
 	     try{

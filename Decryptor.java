@@ -11,6 +11,7 @@ public class Decryptor extends Tools{
       System.out.println("Enter y to confirm");
     }
 
+    //prompts for user input
     public static void completeUpdate(String input){
       if (input.substring(0,1).equals("y")){
             System.out.println("Please enter string you wish to decrypt.");
@@ -19,10 +20,12 @@ public class Decryptor extends Tools{
           }
       else if (input.substring(0,1).equals("b")){
             System.out.println("Functionality not available in prototype.  Sorry!");
+            //brute-force not completely viable as of yet
           }
     else {
       System.out.println(input);
       System.out.println("Functionality not available in prototype.  Sorry!");
+      //encryption not completely viable as of yet
       more=0;
     }
     }
@@ -35,6 +38,7 @@ public class Decryptor extends Tools{
       inputHash = Integer.parseInt(hash);
     }
 
+    //selects current mode of either encryption/decryption/brute-force
     public static int modeSelector(String mode){
       if (mode.equals("e")){ //encrypt
         currentMode=1;
@@ -48,6 +52,8 @@ public class Decryptor extends Tools{
       return currentMode;
     }
 
+
+    //actual process of encrpting, decrypting, brute-force
     public static String solveCode(){
     String ans="";
     String fans="";
@@ -88,5 +94,7 @@ public class Decryptor extends Tools{
       }
     }
     return fans;
+
 }
+
 }

@@ -1,11 +1,12 @@
 public class NetworkManager{
-  
+
     static int[][] network = new int[10][10];
     public NetworkManager(){
 
-	  network[3][4] = 1;
-	  network[7][5] = 1;
-	  network[9][9] = 1;
+
+	  network[3][4] = 1; //computer 43
+	  network[7][5] = 1; //computer 75
+	  network[9][9] = 1; //computer 99
 
     }
     public static void main(String[] args){
@@ -17,7 +18,7 @@ public class NetworkManager{
     }
 
     public static void printNetwork(){
-
+     //printing 2d array coordinate system of networks
      for(int x = 0; x < 10; x ++){
 	   System.out.print(x + "\t");
 	   }
@@ -35,6 +36,8 @@ public class NetworkManager{
 	  }
     }
 
+    //test coordinates
+    //checks if correct computer was picked from list above
     public Boolean testCoordinates(int xcord, int ycord){
 	    if (network[xcord][ycord] == 1){
 	    return true;

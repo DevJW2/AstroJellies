@@ -36,13 +36,12 @@ public class Vulndetector implements VirusCreator {
 
 
   //randomly generate array of vulnerabilities
-  public static String[] findVulnerabilities(){
+  public static void findVulnerabilities(){
     int numVul = (int)(Math.random() * 5 );
     for (int i=0; i< numVul-1; i++){
       int randpick = (int)(Math.random() * chars.length) - 1;
       Vuls[i] = chars[randpick];
     }
-    return Vuls;
   }
 
 

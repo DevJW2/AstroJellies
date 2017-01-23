@@ -37,7 +37,7 @@ public class Woo{
 		    System.out.print("hacker@" + VFD.currentComputer+ ":" + VFD.currentDir + "$ ");
 		    System.out.print("");
 
-		    //Test COMMANDS
+		//Test COMMANDS
 		    String userInput = Keyboard.readString();
 		    try{
 		    //Test for CD
@@ -107,8 +107,7 @@ public class Woo{
 
 		    }
 
-
-
+        //Test for Decryptor
 		    else if(userInput.equals("decryptor") && (!VFD.currentComputer.equals("home"))){
 			    Decryptor.setupEr();
 			    String userInputed = Keyboard.readString();
@@ -134,7 +133,7 @@ public class Woo{
 		    //Test for open
 		     else if(userInput.substring(0,4).equals("open")){
 			    Commands.openFile(userInput.substring(5),userInput.substring(userInput.substring(5).length() + 1));
-          
+
 		     }
 
 		    //Test for SSH
@@ -155,6 +154,7 @@ public class Woo{
 		     }
 
 		    //VIRUS CREATOR ----------------------------------------------------------------
+        //As of right now, Virus creator/detector are not functional
 		     else if(userInput.equals("send trojan")){
 			 Vulndetector.findVulnerabilities();
 			 System.out.println("Found " + Vulndetector.getVuls() + " vulnerabilities.");
@@ -193,7 +193,7 @@ public class Woo{
 			       }
 			     */
 			     if (userInputed.equals("n")) {
-				 System.out.println("Please return a valid response.");
+				 System.out.println("Decided not to use Trojan");
 			     }
 
 			 }
