@@ -68,7 +68,7 @@ public class Woo{
 			System.out.println("REMEMBER: cd .. goes back a directory in UNIX");
 			System.out.println("");
 		        System.out.println("------------------------------------------------------");
-			
+
 			System.out.println("Command: open");
 			System.out.println("opens any files: .exe, .txt, etc");
 			System.out.println("Format: open <type here>");
@@ -84,29 +84,44 @@ public class Woo{
 			System.out.println("WARNING: ONLY WORKS AFTER YOU BEAT TUTORIAL");
 			System.out.println("shows your network map");
 			System.out.println("");
-	        	System.out.println("------------------------------------------------------"); 
+	        	System.out.println("------------------------------------------------------");
 			System.out.println("---NOT PART OF THE GAME---");
 			System.out.println("");
 			System.out.println("Command: exit");
 			System.out.println("To exit out of Game Loop");
 			System.out.println("");
 	        	System.out.println("------------------------------------------------------");
-			
+
 		    }
-		    //Test for EXIT
+        else if(userInput.equals("decryptor") && (!VFD.currentComputer.equals("home"))){
+      Decryptor.setupEr();
+      String userInputed = Keyboard.readString();
+      Decryptor.completeUpdate(userInputed);
+      if (Decryptor.more==1){
+        String userInuted = Keyboard.readString();
+        Decryptor.stringSet(userInuted);
+      if (Decryptor.currentMode==2){
+        System.out.println("Please enter the hash to decrypt your message:");
+        String userIuted = Keyboard.readString();
+        Decryptor.hashSet(userIuted);
+      }
+      System.out.println(Decryptor.solveCode());
+    }
+      }
+      //Test for EXIT
 		     else if(userInput.equals("exit")){
 			value = false;
 		    }
 
-		    
+
 		    //Test for open
 		     else if(userInput.substring(0,4).equals("open")){
 			Commands.openFile(userInput.substring(5),userInput.substring(userInput.substring(5).length() + 1));
 
 		     }
-		    
+
 		    //Test for SSH
-    
+
 		     else if(userInput.substring(0,3).equals("ssh") && (!VFD.currentComputer.equals("home"))){
 			 if(userInput.substring(4).length() == 12 && userInput.substring(4,11).equals("hacker@")){
 			     Commands.connectComputer(userInput.substring(4));
@@ -169,9 +184,9 @@ public class Woo{
 
 
 
-		    
 
-		    
+
+
 		    else{
 		        System.out.println("Please insert a viable command");
 			System.out.println("Try using the help command...");

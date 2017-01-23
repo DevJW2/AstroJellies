@@ -1,66 +1,68 @@
 import cs1.Keyboard;
 
 public class Decryptor{
+    public static int more = 0;
     public static int currentMode = 0;
     public static String inputString = "";
     public static int inputHash = 0;
     public static String alphabet = "abcdefghijklmnopqrstuvwxyz";
     public static void setupEr(){
       System.out.println("Do you wish to encrypt or decrypt or brute force a message?");
-      System.out.println("Enter either 'encrypt' or 'decrypt' or 'brute'.");
-      String usrInput = Keyboard.readString();
-            if(usrInput.length()>1){       
-                System.out.println("Invalid input!");
-            }
-            else{
-                stringSet(usrInput);
-            } 
+      System.out.println("Enter either 'e' or 'd' or 'b'.");
     }
-    public static void hashInput(){
-	System.out.println("Please input hash: ");
-        String userInput = Keyboard.readString();
-            if(userInput.length()>1){
-		System.out.println("Invalid input!");
-	    }
-	    else{
-		hashSet(Integer.parseInt(userInput));
-	    }
+    public static void completeUpdate(String input){
+      if (input.substring(0,1).equals("d")){
+            System.out.println("Please enter string you wish to decrypt.");
+            more=1;
+            modeSelector("d");
+          }
+      else if (input.substring(0,1).equals("b")){
+            System.out.println("Please enter string you wish to decrypt.");
+            more=1;
+            modeSelector("b");
+          }
+    else {
+      System.out.println(input);
+      System.out.println("Functionality not available in prototype.  Sorry!");
+      more=0;
     }
+        }
     public static void stringSet(String input){
       inputString = input;
     }
-    public static void hashSet(int hash){
-      inputHash = hash;
+    public static void hashSet(String hash){
+      inputHash = Integer.parseInt(hash);
     }
     public static int modeSelector(String mode){
-      if (mode.equals("encrypt")){
+      if (mode.equals("e")){
         currentMode=1;
       }
-      else if (mode.equals("decrypt")){
+      else if (mode.equals("d")){
         currentMode=2;
       }
-      else if (mode.equals("brute")){
+      else if (mode.equals("b")){
         currentMode=0;
       }
       return currentMode;
     }
-    public static void solveCode(){
+    public static String solveCode(){
     String ans="";
+    String fans="";
       if (currentMode==2){
-        System.out.println("Decrypting.../n");
+        System.out.println("Decrypting...");
         for (int x =0; x<27;x++){
           if(x+inputHash>26){
             ans = Character.toString(inputString.charAt(x+inputHash-26));
           }
           else{
-            ans=Character.toString(inputString.charAt(x+inputHash));
+            ans =Character.toString(inputString.charAt(x+inputHash));
           }
-          System.out.print(ans);
+          fans+=ans;
         }
 
       }
       else if (currentMode==0){
-        System.out.println("Decrypting through brute-force.../n");
+        System.out.println("Decrypting through brute-force...");
         for (int q=0;q<27;q++){
           for (int x =0; x<27;x++){
             if(x+q>26){
@@ -69,9 +71,8 @@ public class Decryptor{
             else{
              ans=Character.toString(inputString.charAt(x+q));
             }
-           System.out.print(ans);
+           fans+=ans;
         }
-        System.out.println(" ");
       }
     }
     else{
@@ -83,8 +84,9 @@ public class Decryptor{
         else{
           ans=Character.toString(inputString.charAt(x-inputHash));
         }
-        System.out.print(ans);
+        fans+=ans;
       }
     }
+    return fans;
 }
 }
