@@ -38,8 +38,6 @@ LESSONS LEARNED
 can't be done with the deadline
 -the uses of static, we used a lot of static
 
-Choose your members wisely because you'll end up regretting it - Jeffrey Weng
-
 ||||||||||||||||||||||||||||||||||||||||||
 
 
