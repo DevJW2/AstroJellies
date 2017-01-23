@@ -198,7 +198,6 @@ public class Woo{
 		    }
 		    
 		    catch(Exception e){
-			System.out.println("1");
 			System.out.println("Please insert a viable command");
 			System.out.println("Try using the help command...");
 		    }
