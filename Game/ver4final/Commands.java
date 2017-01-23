@@ -40,9 +40,7 @@ public class Commands{
 		VFD.currentDir = "root";
 		VFD.pastDir = "root";
 	    }
-	    else{
-		
-	    }
+
 	}
 	catch(Exception e){
 	    System.out.println("please enter in the correct format");

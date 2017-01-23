@@ -93,21 +93,25 @@ public class Woo{
 	        	System.out.println("------------------------------------------------------");
 
 		    }
-        else if(userInput.equals("decryptor") && (!VFD.currentComputer.equals("home"))){
-      Decryptor.setupEr();
-      String userInputed = Keyboard.readString();
-      Decryptor.completeUpdate(userInputed);
-      if (Decryptor.more==1){
-        String userInuted = Keyboard.readString();
-        Decryptor.stringSet(userInuted);
-      if (Decryptor.currentMode==2){
-        System.out.println("Please enter the hash to decrypt your message:");
-        String userIuted = Keyboard.readString();
-        Decryptor.hashSet(userIuted);
-      }
-      System.out.println(Decryptor.solveCode());
-    }
-      }
+
+
+		    
+		    else if(userInput.equals("decryptor") && (!VFD.currentComputer.equals("home"))){
+			Decryptor.setupEr();
+			String userInputed = Keyboard.readString();
+			Decryptor.completeUpdate(userInputed);
+			if (Decryptor.more==1){
+			    String userInuted = Keyboard.readString();
+			    Decryptor.stringSet(userInuted);
+			    if (Decryptor.currentMode==2){
+				System.out.println("Please enter the hash to decrypt your message:");
+				String userIuted = Keyboard.readString();
+				Decryptor.hashSet(userIuted);
+			    }
+			    System.out.println(Decryptor.solveCode());
+			}
+		    }
+		    
       //Test for EXIT
 		     else if(userInput.equals("exit")){
 			value = false;
@@ -192,10 +196,13 @@ public class Woo{
 			System.out.println("Try using the help command...");
 		    }
 		    }
+		    
 		    catch(Exception e){
+			System.out.println("1");
 			System.out.println("Please insert a viable command");
 			System.out.println("Try using the help command...");
 		    }
+		    
 		}
 
 	}
