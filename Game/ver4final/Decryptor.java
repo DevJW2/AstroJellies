@@ -1,6 +1,6 @@
 import cs1.Keyboard;
 
-public class Decryptor{
+public class Decryptor extends Tools{
     public static int more = 0;
     public static int currentMode = 0;
     public static String inputString = "";
