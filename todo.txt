@@ -52,7 +52,7 @@ Start on Puzzle portion(Actual Game)
 -DONE-
 
 18. update UML, flowchart, and proposal
-
+-DONE!-
 
 
 
