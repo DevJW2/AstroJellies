@@ -8,6 +8,6 @@ Jeffrey Weng, Federico Tondolo, Allan Wang
 ## To Launch
 Assuming you already have cloned our repo and have the most updated version:
 ```bash
-javac woo.java
-java woo
+javac Woo.java
+java Woo
 ```

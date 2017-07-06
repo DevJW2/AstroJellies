@@ -8,8 +8,8 @@ public class Woo{
     public static boolean value = true;
     //prints out ASCII
     public static void main(String[] args) throws FileNotFoundException{
-	Scanner input = new Scanner(new File("title.txt"));
-	while (input.hasNextLine())
+	  Scanner input = new Scanner(new File("title.txt"));
+	  while (input.hasNextLine())
 	    {
 		System.out.println(input.nextLine());
 	    }
@@ -37,13 +37,13 @@ public class Woo{
 		    System.out.print("hacker@" + VFD.currentComputer+ ":" + VFD.currentDir + "$ ");
 		    System.out.print("");
 
-		    //Test COMMANDS
+		//Test COMMANDS
 		    String userInput = Keyboard.readString();
 		    try{
 		    //Test for CD
 		    if(userInput.substring(0,2).equals("cd")){
-			System.out.println("");
-			Commands.changeDirectory(userInput.substring(3));
+			    System.out.println("");
+			    Commands.changeDirectory(userInput.substring(3));
 		    }
 
 
@@ -107,33 +107,32 @@ public class Woo{
 
 		    }
 
-
-
+        //Test for Decryptor
 		    else if(userInput.equals("decryptor") && (!VFD.currentComputer.equals("home"))){
-			Decryptor.setupEr();
-			String userInputed = Keyboard.readString();
-			Decryptor.completeUpdate(userInputed);
-			if (Decryptor.more==1){
-			    String userInuted = Keyboard.readString();
-			    Decryptor.stringSet(userInuted);
+			    Decryptor.setupEr();
+			    String userInputed = Keyboard.readString();
+			    Decryptor.completeUpdate(userInputed);
+			    if (Decryptor.more==1){
+			      String userInuted = Keyboard.readString();
+			      Decryptor.stringSet(userInuted);
 			    if (Decryptor.currentMode==2){
-				System.out.println("Please enter the hash to decrypt your message:");
-				String userIuted = Keyboard.readString();
-				Decryptor.hashSet(userIuted);
+				    System.out.println("Please enter the hash to decrypt your message:");
+				    String userIuted = Keyboard.readString();
+				    Decryptor.hashSet(userIuted);
 			    }
 			    System.out.println(Decryptor.solveCode());
-			}
-		    }
+			    }
+		  }
 
       //Test for EXIT
 		     else if(userInput.equals("exit")){
-			value = false;
+			    value = false;
 		    }
 
 
 		    //Test for open
 		     else if(userInput.substring(0,4).equals("open")){
-			Commands.openFile(userInput.substring(5),userInput.substring(userInput.substring(5).length() + 1));
+			    Commands.openFile(userInput.substring(5),userInput.substring(userInput.substring(5).length() + 1));
 
 		     }
 
@@ -142,17 +141,20 @@ public class Woo{
 		     else if(userInput.substring(0,3).equals("ssh") && (!VFD.currentComputer.equals("home"))){
 			 if(userInput.substring(4).length() == 12 && userInput.substring(4,11).equals("hacker@")){
 			     Commands.connectComputer(userInput.substring(4));
+           //checking for format
 			 }
 			 else{
 			     System.out.println("Please enter in the correct format");
 			 }
 		     }
+
 		    //Test for viewing network
 		     else if(userInput.equals("netview") && (!VFD.currentComputer.equals("home"))){
-			 Commands.networkMap();
+			      Commands.networkMap();
 		     }
 
 		    //VIRUS CREATOR ----------------------------------------------------------------
+        //As of right now, Virus creator/detector are not functional
 		     else if(userInput.equals("send trojan")){
 			 Vulndetector.findVulnerabilities();
 			 System.out.println("Found " + Vulndetector.getVuls() + " vulnerabilities.");
@@ -191,18 +193,11 @@ public class Woo{
 			       }
 			     */
 			     if (userInputed.equals("n")) {
-				 System.out.println("Please return a valid response.");
+				 System.out.println("Decided not to use Trojan");
 			     }
 
 			 }
 		     }
-
-		    //----------------------------------------------------------------------------
-
-
-
-
-
 
 		    else{
 		        System.out.println("Please insert a viable command");

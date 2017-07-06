@@ -38,8 +38,6 @@ LESSONS LEARNED
 can't be done with the deadline
 -the uses of static, we used a lot of static
 
-Choose your members wisely because you'll end up regretting it - Jeffrey Weng
-
 ||||||||||||||||||||||||||||||||||||||||||
 
 
@@ -142,13 +140,14 @@ Jeffrey Weng :: FIXED, finally, made it so it was less redundant, having Command
 --------------------------------------------------------------
 Jeffrey Weng :: Commented everything, made it easier to understand what each method did. Added back tracking for cd, started on openFile method. Brainstormed last parts of game. Began work with locking files.
 
-Allan Wang: Started work on Virus Interface, and nearly completed Trojan virus. Worked with Jeffrey to iron out the last details of the game.
+Allan Wang :: Started work on Virus Interface, and nearly completed Trojan virus. Worked with Jeffrey to iron out the last details of the game.
 
 We got this boys
 ==============================================================
 
 2016-01-22
 --------------------------------------------------------------
-Jeffrey Weng :: Created Network map, created more files and locked files, created computer systems and switching between them, added exception handling, connectComputer and netview commands, updated todo list, and updated devlog. Made new FlowChart and updated Proposal. 
+Jeffrey Weng :: Created Network map, created more files and locked files, created computer systems and switching between them, added exception handling, connectComputer and netview commands, updated todo list, and updated devlog. Made new FlowChart and updated Proposal.
 Federico Tondolo :: Updated todo list and devlog.  Added Tools superclass and made it became the superclass for Decryptor.  Modified Decryptor to work with Woo class.  Added commands to help text.  Fixed Vulndetector to work with Woo.  Added hint to help the player along.  Fixed title screen.  Fixed UML table to match progress.
+Allan Wang :: Reviewed + cleaned up code where possible.
 ==============================================================
