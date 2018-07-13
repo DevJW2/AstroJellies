@@ -1,5 +1,4 @@
 AstroJellies
-Federico Tondolo
 Jeffrey Weng
 Allan Wang
 pd 5
@@ -57,28 +56,30 @@ Jeffrey Weng :: Completed google survey regarding group and project. Created git
 
 2016-01-05
 --------------------------------------------------------------
-Federico Tondolo :: Brainstormed ideas + possible code.  Aided in writing Proposal, sketch of how the storyline, game mechanics might be addressed.
+
+:: Brainstormed ideas + possible code.  Aided in writing Proposal, sketch of how the storyline, game mechanics might be addressed.
 Allan Wang :: Brainstormed ideas and possible code with teammates.  Aided in writing Proposal along with ideas regarding what code concepts should be incorporated in our code and where they might be of used.
 Jeffrey Weng :: Proposed the idea of basing a game off of HACKNET. Proposed idea to teammates, with underlying code + ideas. Teammates accepted without hesitation and we continued on with the idea. Then we brainstormed ideas + possible code.  Started a google doc with the basic game flow of the game, wrote basic backstory, hacking tools, and drew up the basic outline of the Proposal.
 ==============================================================
 
 2016-01-09
 --------------------------------------------------------------
-Federico Tondolo :: Brainstormed ideas regarding the proposal and wrote detailed descriptions regarding the MVP of the code and the tools to be (possibly) incorporated in the game along with the concepts they would exemplify.  Wrote first version of the UML table (only contained methods for class Woo).
+
+:: Brainstormed ideas regarding the proposal and wrote detailed descriptions regarding the MVP of the code and the tools to be (possibly) incorporated in the game along with the concepts they would exemplify.  Wrote first version of the UML table (only contained methods for class Woo).
 Allan Wang :: Brainstormed ideas regarding the proposal and aided in writing part of it.
 Jeffrey Weng :: Brainstormed ideas regarding the proposal, changed decryptor, updated game flow on our google doc into a collective puzzle game, where small pieces unlock the larger piece,  aided in updating part of the proposal.
 ==============================================================
 
 2016-01-10
 --------------------------------------------------------------
-Federico Tondolo :: Created and updated for the first time todo.txt file in the github project repository.
+:: Created and updated for the first time todo.txt file in the github project repository.
 Allan Wang :: Created the first draft of the Flowchart.
 Jeffrey Weng :: Changed Proposal again, set up new classes for the fixed version of the UML diagram, because it only incorporated the woo(driver class).
 ==============================================================
 
 2016-01-11
 --------------------------------------------------------------
-Federico Tondolo :: Brainstormed ideas to increase detail and complexity of code by including abstract classes along with inheritance and lists (both dimensions).  Also updated devlog with first entry, and  overwrote .gitignore in project repo.
+:: Brainstormed ideas to increase detail and complexity of code by including abstract classes along with inheritance and lists (both dimensions).  Also updated devlog with first entry, and  overwrote .gitignore in project repo.
 Allan Wang :: Brainstormed ideas to increase detail and complexity of code by including abstract classes along with inheritance and lists (both dimensions). Updated flowchart to increase clarity and detail.
 Jeffrey Weng :: Brainstormed ideas to increase detail and complexity of code by thinking of how abstract classes, interfaces, and inheritance can be setup using the different tools.
 Updated and fixed the Devlog. Also updated and pushed to repo the Proposal including: new concepts + elaboration on tools + more thorough backstory. Set up the updated UML table on draw.io. Shared updated UML diagram with team members.
@@ -86,7 +87,7 @@ Updated and fixed the Devlog. Also updated and pushed to repo the Proposal inclu
 
 2016-01-12
 --------------------------------------------------------------
-Federico Tondolo :: Helped finish the UML diagram, with all the basic attributes and methods that will be needed in each class, updated repo.
+:: Helped finish the UML diagram, with all the basic attributes and methods that will be needed in each class, updated repo.
 Allan Wang :: Finished the flow diagram, and drew it up using draw.io
 Jeffrey Weng :: Created the MVP, set up basic outlines for Woo, VFD, and Commands. Updated to-do list, updated repo.
 
@@ -107,7 +108,7 @@ We were provided with final proof (through the difficulty we found completing th
 
 2016-01-13
 --------------------------------------------------------------
-Federico Tondolo :: Updated todo.txt and devlog.txt.  Also updated folder hierarchy and updated UML to fit specifications (had the arrow direction inverted).
+:: Updated todo.txt and devlog.txt.  Also updated folder hierarchy and updated UML to fit specifications (had the arrow direction inverted).
 ==============================================================
 
 2016-01-14
@@ -117,7 +118,7 @@ Jeffrey Weng :: Reorganized directory structure and added modifications to the c
 
 2016-01-17
 --------------------------------------------------------------
-Federico Tondolo :: Created ASCII art and created implementation such that it may be displayed when the game runs.  Created beta version of decryptor class. Updated todo list and devlog. Update UML.
+:: Created ASCII art and created implementation such that it may be displayed when the game runs.  Created beta version of decryptor class. Updated todo list and devlog. Update UML.
 Jeffrey Weng :: Fixed bug in README file, updated README file. Reorganized directory structure and deleted superflous files.  Fixed pesky bug regarding the cd command in the VFD class. Uploaded VF2 version, attempted to streamline UNIX commands. Fixed aesthetics in woo.
 Alan Wang :: Updated documents on repository.
 
@@ -126,7 +127,7 @@ For now, due to the fact that we are midway in developmental stages our repo is 
 
 2016-01-18
 --------------------------------------------------------------
-Federico Tondolo :: Upgraded Decryptor class to make process of using it more streamlined.  Updated devlog.  Fixed bug when utilising command line where 1 letter commands would close the whole program and return an error.
+:: Upgraded Decryptor class to make process of using it more streamlined.  Updated devlog.  Fixed bug when utilising command line where 1 letter commands would close the whole program and return an error.
 Jeffrey Weng :: Minor changes on woo class, updated devlog, updated version history
 ==============================================================
 
@@ -148,6 +149,6 @@ We got this boys
 2016-01-22
 --------------------------------------------------------------
 Jeffrey Weng :: Created Network map, created more files and locked files, created computer systems and switching between them, added exception handling, connectComputer and netview commands, updated todo list, and updated devlog. Made new FlowChart and updated Proposal.
-Federico Tondolo :: Updated todo list and devlog.  Added Tools superclass and made it became the superclass for Decryptor.  Modified Decryptor to work with Woo class.  Added commands to help text.  Fixed Vulndetector to work with Woo.  Added hint to help the player along.  Fixed title screen.  Fixed UML table to match progress.
+:: Updated todo list and devlog.  Added Tools superclass and made it became the superclass for Decryptor.  Modified Decryptor to work with Woo class.  Added commands to help text.  Fixed Vulndetector to work with Woo.  Added hint to help the player along.  Fixed title screen.  Fixed UML table to match progress.
 Allan Wang :: Reviewed + cleaned up code where possible.
 ==============================================================
